@@ -1,0 +1,32 @@
+@import "../pages/styles/colors.scss";
+
+.button {
+    position: relative;
+    padding: 10px 0 11px;
+    font-size: .875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .125rem;
+    color: $dark-200;
+    transition: $hover;
+
+    &:hover {
+        color: white;
+    }
+
+    &:after {
+        position: absolute;
+        z-index: -1;
+        content: '';
+        height: 3px;
+        width: 100%;  
+        bottom: 0px;
+        left: -1px;
+        background: $blue-100;
+        transition: $hover;
+    }
+
+    &:hover:after {
+        height: calc(100% + 4px);
+    }
+}

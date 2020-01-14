@@ -2,20 +2,27 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import StageHome from "../components/stagehome"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+import "./mystyles.scss"
+import ProjectHome from "../components/project/projecthome"
+
+const IndexPage = () => {
+  return (
+    <Layout>
+    
+    <StageHome />
+    <ProjectHome 
+      client="Migros" 
+      projecttitle="Medium" 
+      subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
+      tags="UI UX Concept Illustration" />
+    
+
+    </Layout>
+  )
+}
+
 
 export default IndexPage

@@ -1,0 +1,18 @@
+@import "../pages/styles/colors.scss";
+
+.stage {
+    height: 100vh;
+
+    .pagetitle {
+        margin: 0;
+        font-size: 4.5rem;
+        font-weight: 700;
+    }
+
+    .subtitle {
+        margin-bottom: 32px;
+        font-size: 1.25rem;
+        line-height: 2rem;
+        color: $light-300;
+    }
+}

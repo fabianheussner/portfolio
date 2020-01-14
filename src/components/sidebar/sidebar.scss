@@ -1,0 +1,73 @@
+@import "../../pages/styles/colors.scss";
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    background: white;
+    z-index: 4;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: all 300ms ease-out;
+
+    .sidebar__logo {
+        padding: 1rem;
+    }
+
+    .internallinks {
+
+        ul {
+
+            li {
+
+                text-align: right;
+
+                a {
+                    font-size: 4.5rem;
+                    font-weight: 700;
+                    color: $dark-200;
+                    transition: $hover;
+
+                    &:hover {
+                        color: $blue-100;
+                    }
+                }
+            }
+        }
+    }
+
+    .externallinks {
+        float: right;
+
+        ul {
+            display: flex;
+    
+            li {
+                padding: 0 1rem;
+    
+              a {
+                display: block;
+                padding: 0px 1rem;
+                font-weight: 500;
+                text-transform: uppercase;
+                letter-spacing: .125rem;
+                line-height: 56px;
+                color: $dark-200;
+                transition: $hover;
+          
+                &:hover, :active {
+                  color: $blue-100;
+                }
+              }
+            }
+          }
+    }
+}
+
+
+.sidebar.open {
+    transform: translateY(0);
+    opacity: 1;
+}

@@ -1,0 +1,47 @@
+@import "../pages/styles/colors.scss";
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  z-index: 3;
+
+  .header__navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+
+    .header__logo a {
+      
+    }
+
+    .spacer {
+      flex: 1;
+    }
+
+    .header_navigationitems {
+
+      ul {
+        display: flex;
+
+        li {
+
+
+          a {
+            display: block;
+            padding: 0px 1rem;
+            line-height: 56px;
+            color: $dark-200;
+      
+            &:hover, :active {
+              color: $blue-100;
+            }
+          }
+        }
+      }
+    }
+  }
+}

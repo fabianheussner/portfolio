@@ -1,0 +1,57 @@
+@import "../../pages/styles/colors.scss";
+
+.projecthome {
+    background: tomato;
+    height: 100vh;
+
+    .container {
+        background: teal;
+    }
+
+    .description {
+        // position: absolute;
+        // top: 50%;
+        // left: 0;
+        // right: 0;
+
+        .client {
+            margin-bottom: 10%;
+            font-size: .875rem;
+            font-weight: 600;
+            letter-spacing: .125rem;
+            text-transform: uppercase;
+            color: $light-300;
+        }
+    
+        .projecttitle {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+    
+        .subtitle {
+            margin-bottom: 32px;
+            font-size: 1.25rem;
+            line-height: 2rem;
+            color: $light-300;
+        }
+    
+        .tags {
+            margin-bottom: 10%;
+            color: $light-300;
+            word-spacing: 1rem;
+        }
+
+    }
+
+    .thumbnail {
+        
+
+        // img {
+        //     position: absolute;
+        //     top: 0px;
+        //     width: 50vw;
+        //     height: 100vh;
+        //     object-fit: cover;
+        // }
+    }
+}

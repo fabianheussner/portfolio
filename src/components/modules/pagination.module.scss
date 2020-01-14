@@ -1,0 +1,58 @@
+@import "../../pages/styles/colors.scss";
+
+.pagination {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    .pagination__links {
+        display: flex;
+        height: 104px;
+        align-items: center;
+
+        .spacer {
+            flex: 1;
+        }
+
+        .previous a, .next a {
+            display: flex;
+            text-transform: uppercase;
+            font-size: .875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: .125rem;
+            line-height: 24px;
+            color: $dark-200;
+            transition: $hover;
+
+            &:hover {
+                color: $blue-100;
+            }
+        }
+
+        .previous a {
+            padding: .5rem .5rem .5rem 0;
+        }
+
+        .next a {
+            padding: .5rem 0 .5rem .5rem;
+        }
+
+        .previous a:before {
+            content: '';
+            display: block;
+            width: 24px;
+            height: 24px;
+            margin-right: 16px;
+            background-image: url('../../images/icon-arrow-left.svg');
+        }
+
+        .next a:after {
+            content: '';
+            display: block;
+            width: 24px;
+            height: 24px;
+            margin-left: 16px;
+            background-image: url('../../images/icon-arrow-right.svg');
+        }
+    }
+}

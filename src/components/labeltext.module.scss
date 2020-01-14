@@ -1,0 +1,22 @@
+@import "../pages/styles/colors.scss";
+
+.labeltext {
+    padding-top: 96px;
+    padding-bottom: 104px;
+
+    .label h5 {
+        margin-top: 8px;
+        font-size: .875rem;
+        font-weight: 600;
+        letter-spacing: .125rem;
+        text-transform: uppercase;
+        color: $light-300;
+    }
+
+    .headline {
+        margin-bottom: 8px;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+}

@@ -1,0 +1,40 @@
+@import "../../pages/styles/colors.scss";
+
+.stage { 
+    height: 100vh;
+
+    .stage__container {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+
+        .stage__columns {
+            justify-content: center;
+            align-items: center;
+
+            .stage__title {
+
+                .pagetitle {
+                    margin: 0;
+                    font-size: 4.5rem;
+                    font-weight: 700;
+                }
+            
+                .subtitle {
+                    margin-bottom: 32px;
+                    font-size: 1.25rem;
+                    line-height: 2rem;
+                    color: $light-300;
+                }
+                
+            }
+
+            .stage__illustration {
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

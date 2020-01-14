@@ -1,0 +1,18 @@
+@import "../../pages/styles/colors.scss";
+
+.imagetext {
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+    .copywrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;        
+
+        .headline {
+            margin-bottom: 8px;
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
+    }
+}

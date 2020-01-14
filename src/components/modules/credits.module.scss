@@ -1,0 +1,38 @@
+@import "../../pages/styles/colors.scss";
+
+.credits {
+    padding-top: 0;
+    padding-bottom: 104px;
+
+    .label h5 {
+        margin-top: 8px;
+        font-size: .875rem;
+        font-weight: 600;
+        letter-spacing: .125rem;
+        text-transform: uppercase;
+        color: $light-300;
+    }
+
+    .members {
+        margin-top: 16px;
+
+        span, span a {
+            text-transform: uppercase;
+            font-size: .875rem;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: .125rem;
+            line-height: 24px;
+            color: $dark-200;
+            transition: $hover;
+        }
+
+        span {
+            margin-right: 24px;
+        }
+
+        span a:hover {
+            color: $blue-100;
+        }
+    }
+}

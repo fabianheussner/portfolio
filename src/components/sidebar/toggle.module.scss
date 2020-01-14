@@ -1,0 +1,24 @@
+@import "../../pages/styles/colors.scss";
+
+.togglebutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 32px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+
+    .togglebutton:focus {
+        outline: none;
+    }
+
+    .togglebutton__line {
+        width: 32px;
+        height: 2px;
+        background: $dark-200;
+    }
+}

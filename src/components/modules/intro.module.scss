@@ -1,0 +1,40 @@
+@import "../../pages/styles/colors.scss";
+
+.intro {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    .description {
+        // position: absolute;
+        // top: 50%;
+        // left: 0;
+        // right: 0;
+
+        .client {
+            margin-bottom: 40px;
+            font-size: .875rem;
+            font-weight: 600;
+            letter-spacing: .125rem;
+            text-transform: uppercase;
+            color: $light-300;
+        }
+    
+        .projecttitle {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+    
+        .subtitle {
+            margin-bottom: 16px;
+            font-size: 1.25rem;
+            line-height: 2rem;
+            color: $light-300;
+        }
+    
+        .tags {
+            color: $light-200;
+            word-spacing: 1rem;
+        }
+
+    }
+}

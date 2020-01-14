@@ -1,0 +1,58 @@
+@import "../pages/styles/colors.scss";
+
+.tabbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid $light-200;
+    display: flex;
+    background: white;
+    z-index: 999;
+
+    a {
+        position: relative;
+        display: block;
+        width: 20%;
+        padding: 33px 0 4px;
+        font-size: .75rem;
+        text-align: center;
+        color: $dark-200;
+        opacity: 30%;
+
+        &.active {
+            opacity: 100%;
+        }
+
+        &:before {
+            content: ' ';
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        &.home:before {
+            background-image: url(../images/icon-logo.svg);
+        }
+        &.about:before {
+            background-image: url(../images/icon-about.svg);
+        }
+        &.work:before {
+            background-image: url(../images/icon-work.svg);
+        }
+        &.contact:before {
+            background-image: url(../images/icon-contact.svg);
+        }
+        &.more:before {
+            background-image: url(../images/icon-more.svg);
+        }
+    }
+}
+
+@media (min-width: 600px) {
+    .hidden {
+        display: none;
+    }
+}
