@@ -11,9 +11,9 @@ import Header from "./header"
 import Sidebar from "./sidebar/sidebar"
 import Backdrop from "./backdrop/backdrop"
 
-import Request from "./request"
+import Request from "./modules/request"
 import Footer from "./footer/footer"
-import Tabbar from "./tabbar"
+import Tabbar from "./tabbar/tabbar"
 
 import "../pages/mystyles.scss"
 
