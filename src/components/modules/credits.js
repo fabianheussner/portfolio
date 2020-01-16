@@ -13,7 +13,7 @@ const Credits = props => {
                         </div>
                     </div>
                     <div className={`${styles.members} column`}>
-                        <span><a>Timon Hass</a></span>
+                        <span><a href="https://www.facebook.com/">Timon Hass</a></span>
                         <span>Svenja Eggers</span>
                     </div>
                 </div>

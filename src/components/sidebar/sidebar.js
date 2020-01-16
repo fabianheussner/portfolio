@@ -2,21 +2,11 @@ import React from 'react';
 import { Link } from "gatsby"
 
 import styles from './sidebar.module.scss'
-import myLogo from '../../images/logo-dark.svg'
 
 const Sidebar = props => {
-    // let drawerClasses = 'sidebar';
-    // if (props.show) {
-    //     drawerClasses = 'sidebar open';
-    // }
 
     return (
         <nav className={`${styles.sidebar} ${props.show ? styles.open : ''}`}>
-        {/* // <nav className={drawerClasses}> */}
-            {/* <div className="sidebar__logo">
-                <Link to="/"><img src={myLogo} alt="Logo Fabian Heußner" /></Link>
-            </div> */}
-
             <div className={styles.internallinks}>
                 <ul>
                     <li><Link to="/work/">work</Link></li>
@@ -26,11 +16,11 @@ const Sidebar = props => {
             </div>
             <div className={styles.externallinks}>
                 <ul>
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">Dribbble</a></li>
-                    <li><a href="">Xing</a></li>
-                    <li><a href="">Linkedin</a></li>
-                    <li><a href="">E-mail</a></li>
+                    <li><a href="https://www.facebook.com/">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/">Dribbble</a></li>
+                    <li><a href="https://www.facebook.com/">Xing</a></li>
+                    <li><a href="https://www.facebook.com/">Linkedin</a></li>
+                    <li><a href="https://www.facebook.com/">E-mail</a></li>
                 </ul>
             </div>
         </nav>

@@ -1,8 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
-import SEO from "../components/seo"
+
 
 import Layout from "../components/layout"
+
 
 import "./mystyles.scss"
 import Intro from "../components/modules/intro"
@@ -16,6 +16,7 @@ import Pagination from "../components/modules/pagination"
 import CodeFrame from '../images/project-docs/code-frame.webp'
 import DocsHome from '../images/project-docs/docs-home.webp'
 import DocsIllustration from '../images/project-docs/docs-illustration.webp'
+
 
 const WorkPage = () => {
   return (

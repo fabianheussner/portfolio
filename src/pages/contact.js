@@ -1,10 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import StageContact from "../components/stages/stagecontact"
-
-import SEO from "../components/seo"
 
 import "../pages/mystyles.scss"
 
