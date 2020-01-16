@@ -12,7 +12,7 @@ const Sidebar = props => {
 
     return (
         <nav className={`${styles.sidebar} ${props.show ? styles.open : ''}`}>
-        // <nav className={drawerClasses}>
+        {/* // <nav className={drawerClasses}> */}
             {/* <div className="sidebar__logo">
                 <Link to="/"><img src={myLogo} alt="Logo Fabian Heußner" /></Link>
             </div> */}
@@ -38,3 +38,4 @@ const Sidebar = props => {
 };
 
 export default Sidebar
+
