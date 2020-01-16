@@ -17,10 +17,10 @@
         font-size: .75rem;
         text-align: center;
         color: $dark-200;
-        opacity: 30%;
+        opacity: .3;
 
         &.active {
-            opacity: 100%;
+            opacity: 1;
         }
 
         &:before {
@@ -34,7 +34,7 @@
         }
 
         &.home:before {
-            background-image: url('../../images/icon-logo.png');
+            background-image: url('../../images/icon-logo.svg');
         }
         &.about:before {
             background-image: url('../../images/icon-about.svg');
