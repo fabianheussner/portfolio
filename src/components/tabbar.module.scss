@@ -34,19 +34,19 @@
         }
 
         &.home:before {
-            background-image: url(../images/icon-logo.svg);
+            background-image: url('../images/icon-logo.svg');
         }
         &.about:before {
-            background-image: url(../images/icon-about.svg);
+            background-image: url('../images/icon-about.svg');
         }
         &.work:before {
-            background-image: url(../images/icon-work.svg);
+            background-image: url('../images/icon-work.svg');
         }
         &.contact:before {
-            background-image: url(../images/icon-contact.svg);
+            background-image: url('../images/icon-contact.svg');
         }
         &.more:before {
-            background-image: url(../images/icon-more.svg);
+            background-image: url('../images/icon-more.svg');
         }
     }
 }
