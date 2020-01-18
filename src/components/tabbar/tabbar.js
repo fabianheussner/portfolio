@@ -10,7 +10,6 @@ const Tabbar = () => (
     <Link to="/about/" activeClassName={styles.active} className={styles.about}>About</Link>
     <Link to="/work/" activeClassName={styles.active} className={styles.work}>Work</Link>
     <Link to="/contact/" activeClassName={styles.active} className={styles.contact}>Contact</Link>
-    <Link to="/more/" activeClassName={styles.active} className={styles.more}>More</Link>
   </nav>
 )
 
