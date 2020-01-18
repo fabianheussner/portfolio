@@ -26,6 +26,53 @@
                     line-height: 2rem;
                     color: $light-300;
                 }
+
+                .address {
+                    margin-top: 20%;
+
+                    .label {
+                        margin-top: 8px;
+                        margin-bottom: 8px;
+                        font-size: .875rem;
+                        font-weight: 600;
+                        letter-spacing: .125rem;
+                        text-transform: uppercase;
+                        color: $light-300;
+                    }
+
+                    p {
+                        margin-bottom: 2rem;
+                        font-size: 1.25rem;
+                        // font-weight: 500;
+                        line-height: 2rem;
+
+                        a {
+                            position: relative;
+                            color: $dark-200;
+                            transition: $hover;
+
+                            &:after {
+                                content: '';
+                                position: absolute;
+                                z-index: -1;
+                                height: 2px;
+                                width: 100%;  
+                                bottom: -4px;
+                                left: 0;
+                                background: $blue-100;
+                                transition: $hover;
+                            }
+
+                            &:hover {
+                                color: white;
+                            }
+                
+                            &:hover:after {
+                                height: calc(100% + 8px);
+                            }
+                        }
+                    }
+                }
                 
             }
 
@@ -38,3 +85,18 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .stage__columns {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    // .stage__title {
+    //     order: 2;
+    // }
+
+    // .stage__illustration {
+    //     order: 1;
+    // }
+  }

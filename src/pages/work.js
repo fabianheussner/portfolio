@@ -1,15 +1,59 @@
 import React from "react"
 
 import Layout from "../components/layout"
+import Skills from "../components/modules/skills"
+import ProjectSmall from "../components/project/projectsmall"
 
 import "./mystyles.scss"
 
 const WorkPage = () => {
   return (
     <Layout>
-    <section class="section">
+    <section className="section">
       <div className="container">
-        <h2 className="title">Work shown here</h2>
+        <div className="columns">
+          <div className="column is-4">
+            <Skills />
+          </div>
+          <div className="column is-6 is-offset-2">
+            <ProjectSmall 
+              client="Osram" 
+              projecttitle="lightelligence docs" 
+              subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
+              tags="UI UX Concept Illustration"
+            />
+            <ProjectSmall 
+              client="Osram" 
+              projecttitle="lightelligence docs" 
+              subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
+              tags="UI UX Concept Illustration"
+            />
+            <ProjectSmall 
+              client="Osram" 
+              projecttitle="lightelligence docs" 
+              subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
+              tags="UI UX Concept Illustration"
+            />
+            <ProjectSmall 
+              client="Osram" 
+              projecttitle="lightelligence docs" 
+              subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
+              tags="UI UX Concept Illustration"
+            />
+            <ProjectSmall 
+              client="Osram" 
+              projecttitle="lightelligence docs" 
+              subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
+              tags="UI UX Concept Illustration"
+            />
+            <ProjectSmall 
+              client="Osram" 
+              projecttitle="lightelligence docs" 
+              subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
+              tags="UI UX Concept Illustration"
+            />
+          </div>
+        </div>
       </div>
     </section>
 

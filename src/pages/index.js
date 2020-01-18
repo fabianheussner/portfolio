@@ -12,8 +12,8 @@ const IndexPage = () => {
     
     <StageHome />
     <ProjectHome 
-      client="Migros" 
-      projecttitle="Medium" 
+      client="Osram" 
+      projecttitle="lightelligence docs" 
       subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
       tags="UI UX Concept Illustration" />
     

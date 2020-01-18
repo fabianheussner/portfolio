@@ -13,6 +13,8 @@ const ContactPage = () => {
       pagetitle="say hello!"
       subtitle="Feel free to contact me anytime. Whether you need an estimate, 
       have an inquiry or if you're just thinking out loud."
+
+      label="Contact"
     />
 
     </Layout>
