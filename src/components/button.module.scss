@@ -28,5 +28,6 @@
 
     &:hover:after {
         height: calc(100% + 4px);
+        box-shadow: $soft-m;
     }
 }

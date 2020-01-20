@@ -1,6 +1,6 @@
 import React from "react"
 
-import logosSoftware from '../../images/work-software.webp'
+import selectedClients from '../../images/selected-clients.webp'
 import styles from './skills.module.scss';
 
 const Skills = props => {
@@ -22,7 +22,7 @@ const Skills = props => {
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
                     Aenean massa.
                 </p>
-                <img src={logosSoftware} alt=""/>
+                <img src={selectedClients} alt=""/>
             </div>
         </div>
     )
