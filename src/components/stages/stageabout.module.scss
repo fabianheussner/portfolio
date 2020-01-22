@@ -1,0 +1,49 @@
+@import "../../pages/styles/colors.scss";
+
+.stage {
+
+    .stage__container {
+
+        .stage__columns {
+            // justify-content: center;
+            // align-items: center;
+
+            .stage__title {
+                margin-top: 10%;
+
+                .pagetitle {
+                    margin: 0;
+                    font-size: 3.5rem;
+                    font-weight: 700;
+
+                    strong {
+                        font-weight: 700;
+                        color: $blue-100;
+                    }
+                }
+            
+                .subtitle {
+                    margin-bottom: 32px;
+                    font-size: 1.5rem;
+                    line-height: 2.25rem;
+                    color: $light-300;
+                }
+                
+            }
+
+            .stage__illustration {
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .stage__columns {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

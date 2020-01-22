@@ -1,0 +1,63 @@
+@import "../../pages/styles/colors.scss";
+
+.accordion__section {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid $light-200;
+    
+    .accordion {
+        display: flex;
+        align-items: center;
+        padding: 1rem 0;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        transition: background-color 0.6s ease;
+
+        &:hover .accordion__title, 
+        &:active {
+            color: $blue-100;
+        }
+
+        .accordion__title {
+            font-weight: 500;
+            font-size: 1.5rem;
+            color: $dark-200;
+            transition: $hover;
+        }
+
+        .accordion__iconwrapper {
+            display: flex;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            background-color: white;
+            margin-left: auto;
+            box-shadow: $soft-m;
+
+            &:hover {
+                
+            }
+
+            .accordion__icon {
+                margin-top: 12px;
+                transition: transform 0.6s ease;
+            }
+
+            .rotate {
+                transform: rotate(135deg);
+            }
+        }
+    }
+
+    .accordion__content {
+        overflow: hidden;
+        transition: $hover;
+
+        .accordion__text {
+            font-size: 1.25rem;
+            padding: 1rem 0 4rem;
+            color: $light-300;
+        }
+    }
+}

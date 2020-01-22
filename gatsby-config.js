@@ -18,13 +18,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Fabian Heussner Portfolio`,
+        short_name: `Portfolio`,
         start_url: `/`,
         background_color: `white`,
         theme_color: `white`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/fabianheussner-logo.png`, // This path is relative to the root of the site.
       },
     },
     {
