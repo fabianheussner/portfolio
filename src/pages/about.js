@@ -7,6 +7,13 @@ import StageAbout from "../components/stages/stageabout"
 
 import "../pages/mystyles.scss"
 
+import iconInterface from '../images/icon-interface.svg'
+import iconDevelopment from '../images/icon-code.svg'
+import iconIllustration from '../images/icon-illustration.svg'
+import iconTeam from '../images/icon-team.svg'
+import iconGames from '../images/icon-games.svg'
+import iconAgile from '../images/icon-agile.svg'
+
 const AboutPage = () => {
   return (
     <Layout>
@@ -24,15 +31,33 @@ const AboutPage = () => {
           <div className="container">
 
               <Accordion 
-                title="User Experience and Interface Design"
+                icon={iconInterface}
+                title="UX and Interface Design"
                 content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa sociis natoque penatibus et magnis dis parturient."
               />
               <Accordion 
+                icon={iconDevelopment}
                 title="Development"
                 content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa sociis natoque penatibus et magnis dis parturient."
               />
               <Accordion 
+                icon={iconIllustration}
                 title="Illustration"
+                content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa sociis natoque penatibus et magnis dis parturient."
+              />
+              <Accordion 
+                icon={iconTeam}
+                title="Team Spirit"
+                content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa sociis natoque penatibus et magnis dis parturient."
+              />
+              <Accordion 
+                icon={iconGames}
+                title="Gamification"
+                content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa sociis natoque penatibus et magnis dis parturient."
+              />
+              <Accordion 
+                icon={iconAgile}
+                title="Agile and Colaboration"
                 content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa sociis natoque penatibus et magnis dis parturient."
               />
 

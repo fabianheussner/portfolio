@@ -3,7 +3,7 @@ import Button from "../button"
 
 import styles from './projecthome.module.scss';
 
-import projectThumbnail from '../../images/project-docs/thumbnail-docs.webp'
+
 
 const ProjectHome = props => {
     console.log(props)
@@ -11,7 +11,7 @@ const ProjectHome = props => {
         <section className={`${styles.projecthome} section`}>
             <div class="container">
                 <div class="columns">
-                    <div class="column">
+                    <div class="column is-4">
                         <div className={styles.description}>
                             <div className={styles.client}>{props.client}</div>
                             <h2 className={styles.projecttitle}>{props.projecttitle}</h2>
@@ -20,9 +20,9 @@ const ProjectHome = props => {
                             <Button link="/osramdocs/" label="See project" />
                         </div>
                     </div>
-                    <div class="column">
+                    <div class="column is-6 is-offset-2">
                         <div className={styles.thumbnail}>
-                            <img src={projectThumbnail} alt="" />
+                            <img src={props.image} alt="" />
                         </div>
                     </div>
                 </div>

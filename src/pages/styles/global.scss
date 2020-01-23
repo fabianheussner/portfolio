@@ -6,11 +6,10 @@ html {
         color: $dark-200;
 
         main {
-            
 
-            // .accordion-section:last-child .accordionwrapper {
-            //     border-bottom: none;
-            // }
+            .accordionwrapper:last-child {
+                border-bottom: none;
+            }
         }
     }
 }

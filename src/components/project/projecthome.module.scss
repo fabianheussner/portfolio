@@ -46,12 +46,13 @@
     .thumbnail {
         
 
-        // img {
-        //     position: absolute;
-        //     top: 0px;
-        //     width: 50vw;
-        //     height: 100vh;
-        //     object-fit: cover;
-        // }
+        img {
+            // position: absolute;
+            // top: 0px;
+            // width: 50vw;
+            // height: 100vh;
+            // object-fit: cover;
+            box-shadow: $soft-xl;
+        }
     }
 }

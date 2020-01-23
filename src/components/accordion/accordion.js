@@ -23,6 +23,7 @@ function Accordion(props) {
     return (
         <div className={`${styles.accordion__section} accordionwrapper`}>
             <button className={`${styles.accordion} ${setActive}`} onClick={toggleAccordion}>
+                <img src={props.icon} className={styles.icon} alt=" " />
                 <p className={styles.accordion__title}>{props.title}</p>
                 <span className={styles.accordion__iconwrapper}>
                     <OpenToggle className={`${styles.accordion__icon} ${setRotate}`} width={24} height={24} fill={"#556FF2"} />

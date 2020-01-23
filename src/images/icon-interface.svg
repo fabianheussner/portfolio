@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="40px" viewBox="0 0 41 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>icon-interface</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon-interface" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 0.000000)">
+        <g id="Icons-/-Rich-/-Interface" fill="#556FF2" fill-rule="nonzero">
+            <path d="M33,5 C34.103,5 35,5.897 35,7 L35,7 L35,33 C35,34.103 34.103,35 33,35 L33,35 L7,35 C5.897,35 5,34.103 5,33 L5,33 L5,7 C5,5.897 5.897,5 7,5 L7,5 Z M33.0005,13.5 L15.5,13.5 L15.5,33 L33.0015,33 L33.0005,13.5 Z M13.5,13.5 L7,13.5 L7,33 L13.5,33 L13.5,13.5 Z M33,7 L7,7 L7,11.5 L33,11.5 L33,7 Z" id="Color"></path>
+        </g>
+    </g>
+</svg>

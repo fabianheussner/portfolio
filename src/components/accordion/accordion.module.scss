@@ -8,15 +8,20 @@
     .accordion {
         display: flex;
         align-items: center;
-        padding: 1rem 0;
+        padding: 3.5rem 0;
+        background: none;
         cursor: pointer;
         border: none;
         outline: none;
         transition: background-color 0.6s ease;
 
         &:hover .accordion__title, 
-        &:active {
+        &:active .accordion__title {
             color: $blue-100;
+        }
+
+        .icon {
+            margin-right: 15%;
         }
 
         .accordion__title {
@@ -35,10 +40,6 @@
             margin-left: auto;
             box-shadow: $soft-m;
 
-            &:hover {
-                
-            }
-
             .accordion__icon {
                 margin-top: 12px;
                 transition: transform 0.6s ease;
@@ -51,13 +52,45 @@
     }
 
     .accordion__content {
+        margin-left: calc(15% + 40px);
         overflow: hidden;
         transition: $hover;
 
         .accordion__text {
+            padding: 0 0 5rem;
             font-size: 1.25rem;
-            padding: 1rem 0 4rem;
+            line-height: 2.125rem;
             color: $light-300;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .accordion__section {
+        .accordion {
+            padding: 2.5rem 0;
+            .icon {
+                margin-right: 1.25rem;
+            }
+            .accordion__title {
+                font-size: 1.125rem;
+                text-align: left;
+            }
+            .accordion__iconwrapper {
+                width: 40px;
+                height: 40px;
+            }
+        }
+        .accordion__content {
+            margin-left: calc(1.25rem + 40px);
+            overflow: hidden;
+            transition: $hover;
+    
+            .accordion__text {
+                font-size: 1.125rem;
+                line-height: 2rem;
+                padding: 0 0 3rem;
+            }
         }
     }
 }
