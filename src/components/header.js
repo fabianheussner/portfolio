@@ -7,6 +7,7 @@ import Toggle from './sidebar/toggle'
 import styles from './header.module.scss'
 
 const Header = props => (
+
   <header className={styles.header}>
     <nav className={styles.header__navigation}>
       <div className={styles.header__logo}>

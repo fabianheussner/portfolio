@@ -13,14 +13,15 @@
         position: relative;
         display: block;
         width: 25%;
-        padding: 33px 0 4px;
-        font-size: .75rem;
+        padding: 35px 0 5px;
+        font-size: .688rem;
         text-align: center;
         color: $dark-200;
         opacity: .3;
 
         &.active {
             opacity: 1;
+            // color: $blue-100;
         }
 
         &:before {

@@ -1,77 +1,32 @@
 @import "../../pages/styles/colors.scss";
 
-.stage { 
-    height: 100vh;
+.stage {
+    padding-top: 8rem;
+    padding-bottom: 6rem;
 
     .stage__container {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
 
-        .stage__columns {
-            justify-content: center;
-            align-items: center;
+        .stage__columns {            
 
             .stage__title {
+                margin-top: 15%;
 
                 .pagetitle {
                     margin: 0;
-                    font-size: 4.5rem;
+                    font-size: 3.5rem;
                     font-weight: 700;
+
+                    strong {
+                        font-weight: 700;
+                        color: $blue-100;
+                    }
                 }
             
                 .subtitle {
                     margin-bottom: 32px;
-                    font-size: 1.25rem;
-                    line-height: 2rem;
+                    font-size: 1.5rem;
+                    line-height: 2.25rem;
                     color: $light-300;
-                }
-
-                .address {
-                    margin-top: 20%;
-
-                    .label {
-                        margin-top: 8px;
-                        margin-bottom: 8px;
-                        font-size: .875rem;
-                        font-weight: 600;
-                        letter-spacing: .125rem;
-                        text-transform: uppercase;
-                        color: $light-300;
-                    }
-
-                    p {
-                        margin-bottom: 2rem;
-                        font-size: 1.25rem;
-                        // font-weight: 500;
-                        line-height: 2rem;
-
-                        a {
-                            position: relative;
-                            color: $dark-200;
-                            transition: $hover;
-
-                            &:after {
-                                content: '';
-                                position: absolute;
-                                z-index: -1;
-                                height: 2px;
-                                width: 100%;  
-                                bottom: -4px;
-                                left: 0;
-                                background: $blue-100;
-                                transition: $hover;
-                            }
-
-                            &:hover {
-                                color: white;
-                            }
-                
-                            &:hover:after {
-                                height: calc(100% + 8px);
-                            }
-                        }
-                    }
                 }
                 
             }
@@ -91,12 +46,4 @@
         display: flex;
         flex-direction: column-reverse;
     }
-
-    // .stage__title {
-    //     order: 2;
-    // }
-
-    // .stage__illustration {
-    //     order: 1;
-    // }
-  }
+}

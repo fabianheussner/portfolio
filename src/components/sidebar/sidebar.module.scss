@@ -1,6 +1,9 @@
 @import "../../pages/styles/colors.scss";
 
 .sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -19,18 +22,24 @@
     .internallinks {
 
         ul {
+            padding: 0 1rem;
 
             li {
-
                 text-align: right;
 
                 a {
+                    padding: 0px 1rem;
                     font-size: 4.5rem;
                     font-weight: 700;
+                    line-height: 6rem;
                     color: $dark-200;
                     transition: $hover;
 
                     &:hover {
+                        color: $blue-100;
+                    }
+
+                    &.active {
                         color: $blue-100;
                     }
                 }
@@ -39,10 +48,12 @@
     }
 
     .externallinks {
-        float: right;
+        position: absolute;
+        bottom: 0px;
+        align-self: flex-end;
 
         ul {
-            display: flex;
+            display: inline-flex;
     
             li {
                 padding: 0 1rem;
@@ -71,3 +82,7 @@
     transform: translateY(0);
     opacity: 1;
 }
+
+// body.sidebar.open {
+//     overflow: hidden;
+// }

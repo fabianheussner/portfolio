@@ -1,15 +1,15 @@
 @import "../../pages/styles/colors.scss";
 
 .stage {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 
     .stage__container {
 
-        .stage__columns {
-            // justify-content: center;
-            // align-items: center;
+        .stage__columns {            
 
             .stage__title {
-                margin-top: 10%;
+                margin-top: 15%;
 
                 .pagetitle {
                     margin: 0;

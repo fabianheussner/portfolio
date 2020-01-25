@@ -3,18 +3,18 @@ import { Link } from "gatsby"
 import styles from './footer.module.scss';
 
 
-const Footer = ({ siteTitle }) => (
+const Footer = () => (
 
     <footer className={`${styles.footer} section`}>
-        <div className={styles.copyright}>
-            © {new Date().getFullYear()}, Fabian Heussner{` `}
-        </div>
-        <div className={styles.spacer}></div>
-        <nav className={styles.footerlinks}>
-            <Link to="/imprint/">Imprint</Link>
-            <a href="https://www.gatsbyjs.org">Mail me</a>
-        </nav>
-                
+        <div className={`${styles.container} container`}>
+            <div className={styles.copyright}>
+                © {new Date().getFullYear()}, Fabian Heussner{` `}
+            </div>
+            <div className={styles.spacer}></div>
+            <nav className={styles.footerlinks}>
+                <Link to="/imprint/">Imprint</Link>
+            </nav>
+        </div>  
     </footer>
 
 )

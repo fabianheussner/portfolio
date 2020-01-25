@@ -1,34 +1,44 @@
 @import "../../pages/styles/colors.scss";
 
-.footer {
-    display: flex;
-    align-items: center;
-    height: 88px;
+footer.footer {
     padding-top: 0;
     padding-bottom: 0;
 
-    .copyright {
-        margin-left: 1rem;
-        color: $light-300;
-    }
+    .container {
+        height: 88px;
+        padding-top: 0;
+        padding-bottom: 0;
+        align-items: center;
+        display: flex;
 
-    .spacer {
-        flex: 1;
-    }
-
-    .footerlinks a {
-        padding: 1rem;
-        text-transform: uppercase;
-        font-size: .875rem;
-        font-weight: 400;
-        text-transform: uppercase;
-        letter-spacing: .125rem;
-        line-height: 24px;
-        color: $dark-200;
-        transition: $hover;
-
-        &:hover {
-            color: $blue-100;
+        .copyright {
+            font-size: 1rem;
+            color: $light-300;
         }
+    
+        .spacer {
+            flex: 1;
+        }
+    
+        .footerlinks a {
+            padding: 1rem;
+            font-size: 1rem;
+            font-weight: 400;
+            // text-transform: uppercase;
+            // letter-spacing: .125rem;
+            line-height: 24px;
+            color: $light-300;
+            transition: $hover;
+    
+            &:hover {
+                color: $blue-100;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        margin-bottom: 56px;
     }
 }

@@ -9,9 +9,9 @@ const Sidebar = props => {
         <nav className={`${styles.sidebar} ${props.show ? styles.open : ''}`}>
             <div className={styles.internallinks}>
                 <ul>
-                    <li><Link to="/work/">work</Link></li>
-                    <li><Link to="/about/">that's me</Link></li>
-                    <li><Link to="/contact/">contact</Link></li>
+                    <li><Link to="/work/" activeClassName={styles.active}>work</Link></li>
+                    <li><Link to="/about/" activeClassName={styles.active}>that's me</Link></li>
+                    <li><Link to="/contact/" activeClassName={styles.active}>contact</Link></li>
                 </ul>
             </div>
             <div className={styles.externallinks}>

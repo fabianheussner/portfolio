@@ -1,0 +1,78 @@
+@import "../../pages/styles/colors.scss";
+
+.contactlinks {
+    div div {margin-bottom: 7rem;}
+
+    .label {
+        margin-bottom: 1rem;
+        font-size: .875rem;
+        font-weight: 500;
+        letter-spacing: .125rem;
+        text-transform: uppercase;
+        color: $light-300;
+    }
+    
+    .address, .contact {
+    
+        p {
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+            line-height: 2.4rem;
+    
+            a {
+                position: relative;
+                color: $dark-200;
+                transition: $hover;
+    
+                &:after {
+                    content: '';
+                    position: absolute;
+                    z-index: -1;
+                    height: 0px;
+                    width: 100%;  
+                    bottom: -4px;
+                    left: 0;
+                    background: $blue-100;
+                    transition: $hover;
+                }
+    
+                &:hover {
+                    color: white;
+                }
+    
+                &:hover:after {
+                    height: calc(100% + 8px);
+                }
+            }
+        }
+    }
+    
+    
+    .socialmedia {
+    
+        ul {
+            margin-left: -2rem;
+            display: flex;
+            flex-wrap: wrap;
+    
+            li {
+                padding: 0 1rem;
+    
+              a {
+                display: block;
+                padding: 1rem 1rem;
+                font-weight: 500;
+                text-transform: uppercase;
+                letter-spacing: .125rem;
+                line-height: 32px;
+                color: $dark-200;
+                transition: $hover;
+          
+                &:hover, :active {
+                  color: $blue-100;
+                }
+              }
+            }
+          }
+    }
+}

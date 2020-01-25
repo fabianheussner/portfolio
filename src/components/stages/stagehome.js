@@ -1,9 +1,9 @@
 import React from "react"
 
-import ChatBubble from "./chatbubble"
-import ScrollDown from "./scrolldown"
+import ChatBubble from "../chatbubble"
+import ScrollDown from "../scrolldown"
 
-import illuHome from '../images/illustration-home.svg'
+import illuHome from '../../images/illustration-home.svg'
 
 import styles from './stagehome.module.scss';
 

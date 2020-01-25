@@ -1,18 +1,8 @@
 @import "../../pages/styles/colors.scss";
 
 .projecthome {
-    // background: tomato;
-    height: 100vh;
-
-    .container {
-        background: teal;
-    }
 
     .description {
-        // position: absolute;
-        // top: 50%;
-        // left: 0;
-        // right: 0;
 
         .client {
             margin-bottom: 10%;
@@ -47,11 +37,6 @@
         
 
         img {
-            // position: absolute;
-            // top: 0px;
-            // width: 50vw;
-            // height: 100vh;
-            // object-fit: cover;
             box-shadow: $soft-xl;
         }
     }

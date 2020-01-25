@@ -20,7 +20,7 @@ const ProjectHome = props => {
                             <Button link="/osramdocs/" label="See project" />
                         </div>
                     </div>
-                    <div class="column is-6 is-offset-2">
+                    <div class="column is-5 is-offset-3">
                         <div className={styles.thumbnail}>
                             <img src={props.image} alt="" />
                         </div>
