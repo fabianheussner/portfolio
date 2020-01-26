@@ -1,7 +1,7 @@
 import React from "react"
 
 import illuError from '../../images/illustration-404.svg'
-import Button from '../button'
+import Button from '../button/button'
 
 import styles from './stage404.module.scss';
 
