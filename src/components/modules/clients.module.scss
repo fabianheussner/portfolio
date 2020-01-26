@@ -1,0 +1,18 @@
+@import "../../pages/styles/colors.scss";
+
+
+.clients {
+    
+    .label {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font-size: .875rem;
+        font-weight: 600;
+        letter-spacing: .125rem;
+        text-transform: uppercase;
+        color: $light-300;
+    }
+    img {
+        margin-top: 24px;
+    } 
+}
