@@ -1,69 +1,39 @@
 @import "../../pages/styles/colors.scss";
 
 .button {
+    position: relative;
     display: inline-block;
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 3.5rem;
     color: $blue-100;
-    padding: 0 32px 0 0;
+    padding: 0 32px 0 56px;
     transition: $hover;
 
-    &:before {
-        content: '';
-        position: relative;
-        display: inline-block;
-        width: 24px;
-        height: 24px;
-        top: 4px;
+    svg {
+        position: absolute;
+        top: 1rem;
         left: 0;
-        margin-right: 32px;
-        background-image: url('../../images/icon-arrow-right.svg');
         transition: $hover;
+        
+        path {
+            fill: $blue-100;
+            transition: $hover;
+        }
     }
-
+    
     &:hover {
         background: $blue-100;
         color: white;
         box-shadow: $soft-m;
-    }
 
-    &:hover:before {
+    }
+    
+    &:hover svg {
         left: 1rem;
+
+        path {
+            fill: white;
+        }
     }
 }
-
-
-
-
-// .button {
-//     position: relative;
-//     padding: 10px 0 11px;
-//     font-size: .875rem;
-//     font-weight: 600;
-//     text-transform: uppercase;
-//     letter-spacing: .125rem;
-//     color: $dark-200;
-//     transition: $hover;
-
-//     &:hover {
-//         color: white;
-//     }
-
-//     &:after {
-//         position: absolute;
-//         z-index: -1;
-//         content: '';
-//         height: 3px;
-//         width: 100%;  
-//         bottom: 0px;
-//         left: -1px;
-//         background: $blue-100;
-//         transition: $hover;
-//     }
-
-//     &:hover:after {
-//         height: calc(100% + 4px);
-//         box-shadow: $soft-m;
-//     }
-// }

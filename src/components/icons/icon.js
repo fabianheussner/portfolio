@@ -1,6 +1,8 @@
 
 import React from 'react';
-const {PropTypes} = React;
+import PropTypes from 'prop-types'
+
+// const {PropTypes} = React;
 
 const Icon = props => {
   const styles = {
@@ -35,7 +37,7 @@ Icon.propTypes = {
 };
 
 Icon.defaultProps = {
-  size: 16,
+  size: 24,
 };
 
 export default Icon;

@@ -1,18 +1,50 @@
 @import "../../pages/styles/colors.scss";
 
 .stage {
-    // height: 100vh;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 
-    .pagetitle {
-        margin: 0;
-        font-size: 4.5rem;
-        font-weight: 700;
+    .stage__container {
+
+        .stage__columns {            
+
+            .stage__title {
+                margin-top: 15%;
+
+                .pagetitle {
+                    margin: 0;
+                    font-size: 3.5rem;
+                    font-weight: 700;
+
+                    strong {
+                        font-weight: 700;
+                        color: $blue-100;
+                    }
+                }
+            
+                .subtitle {
+                    display: block;
+                    margin-bottom: 32px;
+                    font-size: 1.5rem;
+                    line-height: 2.25rem;
+                    color: $light-300;
+                }
+                
+            }
+
+            .stage__illustration {
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
     }
+}
 
-    .subtitle {
-        margin-bottom: 32px;
-        font-size: 1.25rem;
-        line-height: 2rem;
-        color: $light-300;
+@media (max-width: 768px) {
+    .stage__columns {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }

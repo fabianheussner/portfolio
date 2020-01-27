@@ -38,16 +38,20 @@
             height: 48px;
             background-color: white;
             margin-left: auto;
-            box-shadow: $soft-m;
-
+            transition: $hover;
+            
             .accordion__icon {
                 margin-top: 12px;
                 transition: transform 0.6s ease;
             }
-
+            
             .rotate {
                 transform: rotate(135deg);
             }
+        }
+        
+        &:hover .accordion__iconwrapper {
+            box-shadow: $soft-m;
         }
     }
 

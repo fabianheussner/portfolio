@@ -10,41 +10,26 @@
     z-index: 999;
 
     a {
-        position: relative;
-        display: block;
-        width: 25%;
-        padding: 35px 0 5px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: center;
+        padding: .75rem 0 .5rem;
         font-size: .688rem;
-        text-align: center;
-        color: $dark-200;
-        opacity: .3;
+        color: $light-300;
 
         &.active {
-            opacity: 1;
-            // color: $blue-100;
+            color: $blue-100;
         }
 
-        &:before {
-            content: ' ';
-            position: absolute;
-            width: 24px;
-            height: 24px;
-            top: 40%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+        svg {
+            display: block;
+            fill: $light-300;
+            margin-bottom: .25rem;
         }
 
-        &.home:before {
-            background-image: url('../../images/icon-logo.svg');
-        }
-        &.about:before {
-            background-image: url('../../images/icon-about.svg');
-        }
-        &.work:before {
-            background-image: url('../../images/icon-work.svg');
-        }
-        &.contact:before {
-            background-image: url('../../images/icon-contact.svg');
+        &.active svg {
+            fill: $blue-100;
         }
     }
 }

@@ -13,9 +13,17 @@ const IndexPage = () => {
   return (
     <Layout>
     
-    <StageHome />
+    <StageHome 
+        pagetitle={["welcome ", <strong>nightowl</strong>]}
+        subtitle="Lorem ipsum dolor sit amet, 
+        consectetuer adipiscing elit. Aenean commodo 
+        ligula eget dolor. Aenean massa. Cum sociis 
+        natoque penatibus et magnis dis parturient montes, 
+        nascetur ridiculus mus."
+    />
 
     <ProjectHome
+        link="/contact/"
         image={docsFeatured} 
         client="Osram" 
         projecttitle="lightelligence docs" 

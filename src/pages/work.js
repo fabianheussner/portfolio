@@ -3,10 +3,12 @@ import SEO from "../components/seo"
 
 import Layout from "../components/layout"
 import StageWork from "../components/stages/stagework"
-import Clients from "../components/modules/clients"
+import LabelImage from "../components/modules/labelimage"
 // import ProjectSmall from "../components/project/projectsmall"
 
 import "./mystyles.scss"
+
+import selectedClients from '../images/selected-clients.webp'
 
 const WorkPage = () => {
   return (
@@ -22,7 +24,7 @@ const WorkPage = () => {
 
       <section className="section">
         <div className="container is-widescreen">
-            <Clients />
+            <LabelImage image={selectedClients} />
         </div>
       </section>
 
