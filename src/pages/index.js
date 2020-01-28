@@ -23,7 +23,7 @@ const IndexPage = () => {
     />
 
     <ProjectHome
-        link="/contact/"
+        link="/osramdocs/"
         image={docsFeatured} 
         client="Osram" 
         projecttitle="lightelligence docs" 
@@ -31,6 +31,7 @@ const IndexPage = () => {
         tags="UI UX Concept Illustration" />
 
     <ProjectHome
+        link="/osramdocs/"
         image={docsFeatured} 
         client="Osram" 
         projecttitle="lightelligence docs" 

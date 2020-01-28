@@ -11,7 +11,7 @@ const ProjectHome = props => {
     return (
         <section className={`${styles.projecthome} section`}>
             <div class="container">
-                <div class="columns">
+                <div class={`${styles.project__columns} columns`}>
                     <div class="column is-4">
                         <div className={styles.description}>
                             <div className={styles.client}>{props.client}</div>
