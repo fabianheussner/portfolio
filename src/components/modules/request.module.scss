@@ -55,10 +55,22 @@
 
 @media (max-width: 768px) {
     .request {
-        padding: 6rem 0;
-        
-        h3 {
-            font-size: 2rem;
-        }
+
+        .wrapper {
+            padding-top: 0;
+            padding-bottom: 0;
+
+            .copy {
+
+                .question {
+                    font-size: 1.25rem;
+                }
+
+                .contactlink {
+                    font-size: 4rem;
+                }
+            }
+            
+        }     
     }
 }

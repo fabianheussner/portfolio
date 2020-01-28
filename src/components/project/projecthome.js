@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import Button from "../button/button"
+import ButtonSmall from "../button/buttonsmall"
 
 import styles from './projecthome.module.scss';
 
@@ -18,7 +18,7 @@ const ProjectHome = props => {
                             <h2 className={styles.projecttitle}>{props.projecttitle}</h2>
                             <div className={styles.subtitle}>{props.subtitle}</div>
                             <div className={styles.tags}>{props.tags}</div>
-                            <Button link={props.link} label="See project" />
+                            <ButtonSmall link={props.link} label="See project" />
                         </div>
                     </div>
                     <div class="column is-5 is-offset-3">

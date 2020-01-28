@@ -1,0 +1,19 @@
+@import "../../pages/styles/colors.scss";
+
+.button {
+    position: relative;
+    display: inline-block;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 3.5rem;
+    color: $dark-200;
+    padding: 0 32px 0 56px;
+    transition: $hover;
+    
+    &:hover {
+        background: $blue-100;
+        color: white;
+        box-shadow: $soft-m;
+
+    }
+}

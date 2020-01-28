@@ -61,10 +61,11 @@
               a {
                 display: block;
                 padding: 1rem 1rem;
+                font-size: 1rem;
                 font-weight: 500;
+                line-height: 2rem;
                 text-transform: uppercase;
                 letter-spacing: .125rem;
-                line-height: 32px;
                 color: $dark-200;
                 transition: $hover;
           
@@ -74,5 +75,34 @@
               }
             }
           }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .contactlinks {
+        div div {margin-bottom: 5rem;}
+
+        .address, .contact {
+            p {
+                font-size: 1.25rem;
+            }
+        }
+
+        .socialmedia {
+            ul {
+                margin-left: -1rem;
+
+                li {
+                    padding: 0 .5rem;
+
+                    a {
+                        padding: .5rem;
+                        font-size: .875rem;
+                        line-height: 1.5rem;
+                    }
+                }
+            }
+        }
     }
 }
