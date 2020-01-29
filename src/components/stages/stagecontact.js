@@ -1,5 +1,5 @@
 import React from "react"
-import Button from '../button/button'
+import ContactForm from '../form/contactform'
 import illuContact from '../../images/illustration-contact.svg'
 
 import styles from './stagecontact.module.scss';
@@ -14,7 +14,7 @@ const StageContact = props => {
                     <div className={`${styles.stage__title} column is-5`}>
                         <h1 className={styles.pagetitle}>{props.pagetitle}</h1>
                         <span className={styles.subtitle}>{props.subtitle}</span>
-                        <Button link="/about/" label="say hello" />
+                        <ContactForm />
                     </div>
                     <div className={`${styles.stage__illustration} column is-6 is-offset-1`}>
                         <img src={illuContact} alt="" />
