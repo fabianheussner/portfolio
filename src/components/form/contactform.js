@@ -6,12 +6,14 @@ import styles from './contactform.module.scss'
 const ContactForm = () => (
   <div className={styles.contactform}>
     <form
-      name="contact-form"
-      method="post"
+      name="request-form"
+      method="POST"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
     >
         <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="request-form" />
+
         <div className={styles.formgroup}>
             <input name="name" type="text" required/>
             <label for="name" className={`${styles.controllabel} ${styles.labelinput}`}>Name</label>
