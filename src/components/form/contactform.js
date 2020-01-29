@@ -11,13 +11,14 @@ const ContactForm = () => (
       data-netlify="true"
       data-netlify-honeypot="bot-field"
     >
+        <input type="hidden" name="bot-field" />
         <div className={styles.formgroup}>
             <input name="name" type="text" required/>
             <label for="name" className={`${styles.controllabel} ${styles.labelinput}`}>Name</label>
             <i className={styles.bar}></i>
         </div>
         <div className={styles.formgroup}>
-            <input name="email" type="text" required/>
+            <input name="email" type="email" required/>
             <label for="email" className={`${styles.controllabel} ${styles.labelinput}`}>E-mail</label>
             <i className={styles.bar}></i>
         </div>
@@ -26,7 +27,7 @@ const ContactForm = () => (
             <label for="message" className={`${styles.controllabel} ${styles.labeltextarea}`}>Request</label>
             <i className={styles.bar}></i>
         </div>
-        <button className={styles.button}>
+        <button type="submit" className={styles.button}>
             <Icon icon={ICONS.ARROW_RIGHT} />
             Send request
         </button>
