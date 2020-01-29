@@ -8,6 +8,7 @@ const ContactForm = () => (
     <form
       name="request-form"
       method="POST"
+      action="/thank-you"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
     >

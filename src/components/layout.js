@@ -56,7 +56,7 @@ class Layout extends React.Component  {
       
       <main>{children}</main>
       
-      <Request />
+      {/* <Request /> */}
       <Footer />
       <Tabbar />
 
