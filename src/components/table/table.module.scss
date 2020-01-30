@@ -1,0 +1,53 @@
+@import "../../pages/styles/colors.scss";
+
+div {box-sizing: border-box}
+
+.table {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    
+    .cell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 14rem;
+        padding: 1rem;
+        border-bottom: 1px solid $light-200;
+
+    }
+
+    .cell.row3 {
+        width: 33.333%;
+
+        &:nth-child(1),
+        &:nth-child(2),
+        &:nth-child(4),
+        &:nth-child(5) {
+            border-right: 1px solid $light-200;
+        }
+    
+        &:nth-last-child(-n+3) {
+            border-bottom: none;
+        }
+    }
+
+    .cell.row5 {width: 20%}
+}
+
+
+@media (max-width: 768px) {
+    .table {
+        .cell.row3 {
+            width: 50%;
+
+            &:nth-child(2),
+            &:nth-child(4) {
+                border-right: none;
+            }
+
+            &:nth-child(3) {border-right: 1px solid $light-200}
+            &:nth-child(4) {border-bottom: 1px solid $light-200}
+        }
+    }
+}

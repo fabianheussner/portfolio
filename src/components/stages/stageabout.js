@@ -1,6 +1,6 @@
 import React from "react"
 
-import illuContact from '../../images/illustration-home.svg'
+import illuAbout from '../../images/illustrations/illustration-about-me.svg'
 
 import styles from './stageabout.module.scss';
 
@@ -15,8 +15,8 @@ const StageAbout = props => {
                         <h1 className={styles.pagetitle}>{props.pagetitle}</h1>
                         <span className={styles.subtitle}>{props.subtitle}</span>
                     </div>
-                    <div className={`${styles.stage__illustration} column is-6 is-offset-1`}>
-                        <img src={illuContact} alt="" />
+                    <div className={`${styles.stage__illustration} column is-5 is-offset-2`}>
+                        <img src={illuAbout} alt="" />
                     </div>
                 </div>
             </div>

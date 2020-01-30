@@ -56,6 +56,10 @@ html {
                     &:hover {text-decoration: underline;}
                 }
             }
+
+            .project-small:nth-child(even) {
+                margin-top: 6rem;
+            }
         }
     }
 }
