@@ -3,7 +3,7 @@ import Message from '../elements/message'
 import Button from '../button/button'
 import ScrollDown from '../elements/scrolldown'
 
-import illuContact from '../../images/illustration-home.svg'
+import illuHome from '../../images/illustrations/illustration-home.svg'
 
 import styles from './stagehome.module.scss';
 
@@ -21,8 +21,8 @@ const StageHome = props => {
                         <Button link="/about/" label="learn more" />
                         <ScrollDown />
                     </div>
-                    <div className={`${styles.stage__illustration} column is-6 is-offset-1`}>
-                        <img src={illuContact} alt="" />
+                    <div className={`${styles.stage__illustration} column is-5 is-offset-2`}>
+                        <img src={illuHome} alt="" />
                     </div>
                 </div>
             </div>

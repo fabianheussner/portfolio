@@ -88,7 +88,13 @@
         input:focus ~ .controllabel,
         input:valid ~ .controllabel,
         input.form-file ~ .controllabel,
-        input.has-value ~ .controllabel,
+        input.has-value ~ .controllabel {
+            font-size: .8rem;
+            color: $light-300;
+            top: -.025rem;
+            left: 0;
+        }
+
         textarea:focus ~ .controllabel,
         textarea:valid ~ .controllabel,
         textarea.form-file ~ .controllabel,
