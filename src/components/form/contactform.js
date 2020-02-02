@@ -1,7 +1,8 @@
 import React from 'react'
 import Icon from '../icons/icon'
-import {ICONS} from '../icons/constants';
+import {ICONS} from '../icons/constants'
 import styles from './contactform.module.scss'
+import Fade from 'react-reveal/Fade'
 
 const ContactForm = () => (
   <div className={styles.contactform}>
@@ -15,25 +16,27 @@ const ContactForm = () => (
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="request-form" />
 
-        <div className={styles.formgroup}>
-            <input name="name" type="text" required/>
-            <label for="name" className={`${styles.controllabel} ${styles.labelinput}`}>Name</label>
-            <i className={styles.bar}></i>
-        </div>
-        <div className={styles.formgroup}>
-            <input name="email" type="email" required/>
-            <label for="email" className={`${styles.controllabel} ${styles.labelinput}`}>E-mail</label>
-            <i className={styles.bar}></i>
-        </div>
-        <div className={styles.formgroup}>
-            <textarea name="message" required/>
-            <label for="message" className={`${styles.controllabel} ${styles.labeltextarea}`}>Request</label>
-            <i className={styles.bar}></i>
-        </div>
-        <button type="submit" className={styles.button}>
-            <Icon icon={ICONS.ARROW_RIGHT} />
-            Send request
-        </button>
+        <Fade bottom>
+          <div className={styles.formgroup}>
+              <input name="name" type="text" required/>
+              <label for="name" className={`${styles.controllabel} ${styles.labelinput}`}>Name</label>
+              <i className={styles.bar}></i>
+          </div>
+          <div className={styles.formgroup}>
+              <input name="email" type="email" required/>
+              <label for="email" className={`${styles.controllabel} ${styles.labelinput}`}>E-mail</label>
+              <i className={styles.bar}></i>
+          </div>
+          <div className={styles.formgroup}>
+              <textarea name="message" required/>
+              <label for="message" className={`${styles.controllabel} ${styles.labeltextarea}`}>Request</label>
+              <i className={styles.bar}></i>
+          </div>
+          <button type="submit" className={styles.button}>
+              <Icon icon={ICONS.ARROW_RIGHT} />
+              Send request
+          </button>
+        </Fade>
     </form>
   </div>
 )

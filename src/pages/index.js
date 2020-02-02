@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import StageHome from "../components/stages/stagehome"
 import ProjectHome from "../components/project/projecthome"
+import Request from '../components/modules/request'
 
 import docsFeatured from '../images/project-docs/osram-docs-featured.webp'
 
@@ -36,6 +37,8 @@ const IndexPage = () => {
         projecttitle="lightelligence docs" 
         subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
         tags="UI UX Concept Illustration" />
+
+    <Request />
 
     </Layout>
   )

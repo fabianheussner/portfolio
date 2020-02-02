@@ -1,11 +1,13 @@
 @import "../../pages/styles/colors.scss";
 
 .projecthome {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 
     .description {
 
         .client {
-            margin-bottom: 10%;
+            margin-bottom: 6rem;
             font-size: .875rem;
             font-weight: 600;
             letter-spacing: .125rem;
@@ -14,19 +16,21 @@
         }
     
         .projecttitle {
-            font-size: 2.5rem;
-            font-weight: 700;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            font-weight: 500;
         }
     
         .subtitle {
-            margin-bottom: 32px;
-            font-size: 1.25rem;
-            line-height: 2rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+            line-height: 2.25rem;
             color: $light-300;
         }
     
         .tags {
             margin-bottom: 10%;
+            font-size: 1rem;
             color: $light-300;
             word-spacing: 1rem;
         }
@@ -39,13 +43,11 @@
 
             img {
                 position: relative;
-                bottom: 0;
                 transform: scale(1);
                 transition: $hover;
             }
             
             &:hover img {
-                bottom: 1rem;
                 transform: scale(1.025);
                 box-shadow: $soft-xl;
             }

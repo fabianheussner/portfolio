@@ -1,32 +1,23 @@
 @import "../../pages/styles/colors.scss";
 
 .stage {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+    // display: flex;
+    // align-items: center;
+    min-height: 100vh;
 
     .stage__container {
+        margin-top: 20vh;
 
-        .stage__columns {            
+        .stage__columns {          
+            align-items: center;
 
             .stage__title {
-                margin-top: 15%;
-
-                .pagetitle {
-                    margin: 0;
-                    font-size: 3.5rem;
-                    font-weight: 700;
-
-                    strong {
-                        font-weight: 700;
-                        color: $blue-100;
-                    }
-                }
             
                 .subtitle {
                     display: block;
                     margin-bottom: 32px;
-                    font-size: 1.5rem;
-                    line-height: 2.25rem;
+                    font-size: 1.75rem;
+                    line-height: 2.625rem;
                     color: $light-300;
                 }
                 
@@ -38,6 +29,10 @@
                     height: auto;
                 }
             }
+        }
+
+        .scrolldown {
+            margin-top: 4rem;
         }
     }
 }

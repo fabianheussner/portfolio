@@ -3,17 +3,34 @@
 .button {
     position: relative;
     display: inline-block;
+    left: 0;
     font-size: 1.25rem;
     font-weight: 500;
-    line-height: 3.5rem;
+    line-height: 2.5rem;
     color: $dark-200;
-    padding: 0 32px 0 56px;
     transition: $hover;
-    
-    &:hover {
-        background: $blue-100;
-        color: white;
-        box-shadow: $soft-m;
 
+    &:after {
+        position: absolute;
+        z-index: -1;
+        content: '';
+        height: 2px;
+        width: 100%;  
+        bottom: -4px;
+        left: 0;
+        background: $dark-200;
+        transition: $hover;
+    }
+
+    &:hover {
+        left: 1rem;
+        color: white;
+    }
+
+    &:hover:after {
+        left: -1rem;
+        width: calc(100% + 2rem);
+        height: calc(100% + 8px);
+        background: $blue-100;
     }
 }

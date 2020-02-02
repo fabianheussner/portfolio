@@ -2,8 +2,9 @@ import React from "react"
 import SEO from "../components/seo"
 
 import Layout from "../components/layout"
-import Accordion from "../components/accordion/accordion"
 import StageAbout from "../components/stages/stageabout"
+import Accordion from "../components/accordion/accordion"
+import Request from '../components/modules/request'
 import LabelImage from '../components/modules/labelimage'
 
 import "../pages/mystyles.scss"
@@ -64,6 +65,8 @@ const AboutPage = () => {
               <LabelImage image={toolLogos} />
             </div>
         </section>
+
+        <Request />
 
     </Layout>
   )

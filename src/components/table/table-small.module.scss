@@ -2,6 +2,15 @@
 
 div {box-sizing: border-box}
 
+.label {
+    margin-top: 8px;
+    font-size: .875rem;
+    font-weight: 600;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    color: $light-300;
+}
+
 .table {
     display: flex;
     flex-flow: row wrap;

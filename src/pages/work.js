@@ -3,15 +3,13 @@ import SEO from "../components/seo"
 
 import Layout from "../components/layout"
 import StageWork from "../components/stages/stagework"
-import LabelImage from "../components/modules/labelimage"
 import ProjectSmall from "../components/project/projectsmall"
 import Request from '../components/modules/request'
-import Table from '../components/table/table'
 
 import "./mystyles.scss"
 
-import selectedClients from '../images/selected-clients.webp'
 import projectThumbnail from '../images/project-docs/osram-docs-featured.webp'
+import TableSmall from "../components/table/table-small"
 
 const WorkPage = () => {
   return (
@@ -25,11 +23,7 @@ const WorkPage = () => {
         penatibus et magnis dis parturient montes, nascetur ridiculus mus."
       />
 
-      <section className="section">
-        <div className="container is-widescreen">
-            <LabelImage image={selectedClients} />
-        </div>
-      </section>
+      <TableSmall />
 
       <section className="section projects">
         <div className="container is-widescreen">
@@ -92,8 +86,6 @@ const WorkPage = () => {
           </div>
         </div>
       </section>
-
-      <Table />
 
       <Request />
 

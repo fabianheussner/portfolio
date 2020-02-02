@@ -1,6 +1,9 @@
 @import "../../pages/styles/colors.scss";
 
 .scrolldown {
+  position: absolute;
+  top: calc(100vh - 20vh - 153px);
+
   .label {
     margin-top: 8px;
     margin-bottom: 8px;
@@ -13,7 +16,7 @@
 
   .slider {
     position: absolute;
-    bottom: 0%;
+    // bottom: 0%;
     width: 2px;
     height: 80px;
     overflow-y: hidden;

@@ -11,6 +11,7 @@ import LabelText from "../components/modules/labeltext"
 import ImageText from "../components/modules/imagetext"
 import Credits from "../components/modules/credits"
 import Pagination from "../components/modules/pagination"
+import Request from '../components/modules/request'
 
 
 import CodeFrame from '../images/project-docs/code-frame.webp'
@@ -75,6 +76,8 @@ const WorkPage = () => {
         label="Credits" />
 
     <Pagination />
+
+    <Request />
 
     </Layout>
   )

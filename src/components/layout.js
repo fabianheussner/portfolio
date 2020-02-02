@@ -11,7 +11,6 @@ import Header from "./header"
 import Sidebar from "./sidebar/sidebar"
 import Backdrop from "./backdrop/backdrop"
 
-import Request from "./modules/request"
 import Footer from "./footer/footer"
 import Tabbar from "./tabbar/tabbar"
 
@@ -56,7 +55,7 @@ class Layout extends React.Component  {
       
       <main>{children}</main>
       
-      {/* <Request /> */}
+
       <Footer />
       <Tabbar />
 
