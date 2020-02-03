@@ -10,7 +10,7 @@ const Sidebar = props => {
             <div className={styles.internallinks}>
                 <ul>
                     <li><Link to="/work/" activeClassName={styles.active}>work</Link></li>
-                    <li><Link to="/about/" activeClassName={styles.active}>that's me</Link></li>
+                    <li><Link to="/about/" activeClassName={styles.active}>about me</Link></li>
                     <li><Link to="/contact/" activeClassName={styles.active}>contact</Link></li>
                 </ul>
             </div>

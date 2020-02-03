@@ -3,34 +3,54 @@
 .button {
     position: relative;
     display: inline-block;
-    left: 0;
+    padding: 2px;
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 2.5rem;
     color: $dark-200;
     transition: $hover;
 
-    &:after {
+    &::after {
+        content: '';
         position: absolute;
         z-index: -1;
-        content: '';
+        width: 50%;
         height: 2px;
-        width: 100%;  
-        bottom: -4px;
+        bottom: 0;
         left: 0;
         background: $dark-200;
         transition: $hover;
     }
 
     &:hover {
-        left: 1rem;
-        color: white;
+        // color: white;
     }
 
-    &:hover:after {
-        left: -1rem;
-        width: calc(100% + 2rem);
-        height: calc(100% + 8px);
-        background: $blue-100;
+    &:hover::after {
+        width: 100%;
     }
+
+    // &:after {
+    //     position: absolute;
+    //     z-index: -1;
+    //     content: '';
+    //     height: 2px;
+    //     width: 100%;  
+    //     bottom: -4px;
+    //     left: 0;
+    //     background: $dark-200;
+    //     transition: $hover;
+    // }
+
+    // &:hover {
+    //     left: 1rem;
+    //     color: white;
+    // }
+
+    // &:hover:after {
+    //     left: -1rem;
+    //     width: calc(100% + 2rem);
+    //     height: calc(100% + 8px);
+    //     background: $blue-100;
+    // }
 }

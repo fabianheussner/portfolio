@@ -4,8 +4,9 @@ import SEO from "../components/seo"
 import Layout from "../components/layout"
 import StageAbout from "../components/stages/stageabout"
 import Accordion from "../components/accordion/accordion"
+import TableLarge from '../components/table/table-large'
 import Request from '../components/modules/request'
-import LabelImage from '../components/modules/labelimage'
+import Fade from 'react-reveal/Fade'
 
 import "../pages/mystyles.scss"
 
@@ -14,7 +15,6 @@ import iconDevelopment from '../images/icon-code.svg'
 import iconIllustration from '../images/icon-illustration.svg'
 import iconGames from '../images/icon-games.svg'
 import iconAgile from '../images/icon-agile.svg'
-import toolLogos from '../images/selected-clients.webp'
 
 const AboutPage = () => {
   return (
@@ -32,6 +32,7 @@ const AboutPage = () => {
       <section className="section accordion-section skills">
           <div className="container">
 
+            <Fade bottom>
               <Accordion 
                 icon={iconInterface}
                 title="UX and Interface Design"
@@ -57,14 +58,13 @@ const AboutPage = () => {
                 title="Agile and Colaboration"
                 content="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa sociis natoque penatibus et magnis dis parturient."
               />
+            </Fade>
+
 
             </div>
         </section>
-        <section className="section tools">
-            <div className="container is-widescreen">
-              <LabelImage image={toolLogos} />
-            </div>
-        </section>
+
+        <TableLarge />
 
         <Request />
 

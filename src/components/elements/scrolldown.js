@@ -1,6 +1,6 @@
 import React from "react"
-import Fade from 'react-reveal/Fade'
 import styles from './scrolldown.module.scss'
+import Fade from 'react-reveal/Fade'
 
 
 const ScrollDown = () => (

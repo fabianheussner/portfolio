@@ -15,10 +15,9 @@ const TableSmall = props => {
     return (
         <div className="section">
             <div className="container is-widescreen">
-                <h5 className={styles.label}>Selected clients</h5>
-                
-                <div className={styles.table}>
-                    <Fade>
+                <Fade>
+                    <h5 className={styles.label}>Selected clients</h5>
+                    <div className={styles.table}>
                         <div className={`${styles.cell} ${props.width} ${styles.row3}`}>
                             <img src={clientOtelo} alt="Logo Otelo"/>
                         </div>
@@ -37,9 +36,8 @@ const TableSmall = props => {
                         <div className={`${styles.cell} ${props.width} ${styles.row3}`}>
                             <img src={clientSwatch} alt="Logo Swatch"/>
                         </div>
-                    </Fade>
-                </div>
-                
+                    </div>
+                </Fade>        
             </div>
         </div>
     )

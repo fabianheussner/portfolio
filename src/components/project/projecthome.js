@@ -22,7 +22,7 @@ const ProjectHome = props => {
                                 <h2 className={styles.projecttitle}>{props.projecttitle}</h2>
                                 <div className={styles.subtitle}>{props.subtitle}</div>
                                 <div className={styles.tags}>{props.tags}</div>
-                                <ButtonSmall link={props.link} label="See project" />
+                                <ButtonSmall link={props.link} label="View work" />
                             </Fade>
                         </div>
                     </div>

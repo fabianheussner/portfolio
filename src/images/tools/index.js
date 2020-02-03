@@ -1,0 +1,12 @@
+export const logoAbstract = require('./logo-abstract.webp');
+export const logoAfterEffects = require('./logo-after-effects.webp');
+export const logoCinema4D = require('./logo-cinema4d.webp');
+export const logoFigma = require('./logo-figma.webp');
+export const logoGatsby = require('./logo-Gatsby.webp');
+export const logoHtml = require('./logo-html.webp');
+export const logoIllustrator = require('./logo-illustrator.webp');
+export const logoInvision = require('./logo-invision.webp');
+export const logoPhotoshop = require('./logo-photoshop.webp');
+export const logoReact = require('./logo-react.webp');
+export const logoSass = require('./logo-sass.webp');
+export const logoSketch = require('./logo-sketch.webp');

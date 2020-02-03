@@ -4,6 +4,10 @@
     padding-top: 8rem;
     padding-bottom: 8rem;
 
+    .project__columns {
+        align-items: center;
+    }
+
     .description {
 
         .client {
@@ -38,6 +42,7 @@
     }
 
     .thumbnail {
+        // overflow: hidden;
         
         a {
 

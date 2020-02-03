@@ -1,0 +1,100 @@
+@import "../../pages/styles/colors.scss";
+
+div {box-sizing: border-box}
+
+.label {
+    margin-top: 8px;
+    margin-bottom: 4rem;
+    font-size: .875rem;
+    font-weight: 600;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    color: $light-300;
+}
+
+.table {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    
+    .cell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10rem;
+        padding: 1rem;
+        border-bottom: 1px solid $light-200;
+
+        img {
+            width: 50%;
+            max-width: 5rem;
+            height: auto;
+            opacity: .5;
+        }
+
+    }
+
+    .cell.row6 {
+        width: 16.666%;
+
+        &:nth-child(-n+11) {
+            border-right: 1px solid $light-200;
+        }
+
+        &:nth-child(6) {
+            border-right: none;
+        }
+    
+        &:nth-last-child(-n+6) {
+            border-bottom: none;
+        }
+    }
+
+    .cell.row5 {width: 20%}
+}
+
+
+@media (max-width: 1024px) {
+    .table {
+        .cell.row6 {
+            width: 25%;
+
+            &:nth-child(4),
+            &:nth-child(8),
+            &:nth-child(12) {
+                border-right: none;
+            }
+
+            &:nth-child(6) {
+                border-right: 1px solid $light-200;
+            }
+
+            &:nth-child(-n+8) {border-bottom: 1px solid $light-200}
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .table {
+        .cell {
+            height: 8rem;
+        }
+        
+        .cell.row6 {
+            width: 33.333%;
+
+            &:nth-child(3),
+            &:nth-child(6),
+            &:nth-child(9) {
+                border-right: none;
+            }
+
+            &:nth-child(4),
+            &:nth-child(8) {
+                border-right: 1px solid $light-200;
+            }
+
+            &:nth-child(-n+9) {border-bottom: 1px solid $light-200}
+        }
+    }
+}

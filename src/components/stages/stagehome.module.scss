@@ -16,11 +16,18 @@
                 .subtitle {
                     display: block;
                     margin-bottom: 32px;
-                    font-size: 1.75rem;
+                    font-size: 1.625rem;
                     line-height: 2.625rem;
-                    color: $light-300;
-                }
-                
+                    color: $dark-200;
+                    font-weight: 500;
+
+                    .supplement {
+                        font-style: normal;
+                        font-weight: 400;
+                        color: $light-300;
+                        white-space: nowrap;
+                    }
+                }              
             }
 
             .stage__illustration {

@@ -20,7 +20,9 @@ const StageHome = props => {
                             <Message />
                         </Fade>
                         <Fade>
-                            <span className={styles.subtitle}>{props.subtitle}</span>
+                            <span className={styles.subtitle}>
+                                I have a passion for building higlhy-polished user interfaces and enjoy illustrating a lot. <span className={styles.supplement}>Experienced with clients using #FF6600!</span>
+                            </span>
                         </Fade>
                         <Fade bottom>
                             <Button link="/about/" label="learn more" />
