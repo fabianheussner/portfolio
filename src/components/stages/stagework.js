@@ -8,7 +8,7 @@ const StageWork = props => {
     return (
   
         <section className={`${styles.stage} section`}>
-            <div className={`${styles.stage__container} container`}>
+            <div className={`${styles.stage__container} container is-widescreen`}>
                 <div className={`${styles.stage__columns} columns`}>
                     <div className={`${styles.stage__title} column is-6`}>
                         <Fade duration="1600">

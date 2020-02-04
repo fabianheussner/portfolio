@@ -28,12 +28,12 @@
                     color: $blue-100;
                     transition: $hover;
         
-                    &:after {
+                    &::after {
                         position: absolute;
                         z-index: -1;
                         content: '';
-                        height: 0;
-                        width: 100%;  
+                        height: calc(100% + 8px);
+                        width: 0;  
                         bottom: -4px;
                         left: 0;
                         background: $blue-100;
@@ -44,8 +44,9 @@
                         color: white;
                     }
         
-                    &:hover:after {
-                        height: calc(100% + 8px);
+                    &:hover::after {
+                        // height: calc(100% + 8px);
+                        width: 100%;
                     }
                 }
             }

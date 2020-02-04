@@ -11,9 +11,9 @@ const ProjectHome = props => {
     console.log(props)
     return (
         <section className={`${styles.projecthome} section`}>
-            <div className="container">
+            <div className="container is-widescreen">
                 <div className={`${styles.project__columns} columns`}>
-                    <div className="column is-4">
+                    <div className="column is-4-desktop is-6-tablet">
                         <div className={styles.description}>
                             <Link to={props.link}>
                                 <Fade bottom>
@@ -30,7 +30,7 @@ const ProjectHome = props => {
                             </Link>
                         </div>
                     </div>
-                    <div className="column is-5 is-offset-3">
+                    <div className="column is-5-desktop is-offset-3-desktop is-tablet-6">
                         <Link to={props.link}>
                             <Fade duration="2000">
                                 <div className={styles.thumbnail}>

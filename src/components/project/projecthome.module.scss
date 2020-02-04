@@ -88,8 +88,45 @@
 
 
 @media (max-width: 768px) {
-    .project__columns {
-        display: flex;
-        flex-direction: column-reverse;
+    .projecthome {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+
+        .project__columns {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .description {
+            .project__description {
+                margin-top: 1rem;
+                margin-bottom: 2rem;
+            }
+
+            .projecttitle,
+            .subtitle {
+                font-size: 1.25rem;
+                line-height: calc(1.25rem * 1.6);
+            }
+        }
+    }
+}
+
+
+
+
+
+@media (hover:none) {
+    .projecthome {
+        .project__columns {
+            a {
+                &:hover {
+                    img {
+                        transform: none;
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
     }
 }

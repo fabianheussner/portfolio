@@ -54,3 +54,22 @@
         }
     }
 }
+
+
+@media (hover:none) {
+    .button {
+        &:hover {
+            color: $blue-100;
+            box-shadow: none;
+            &::before {
+                background: transparent;
+            }
+            svg {
+                left: 0;
+                path {
+                    fill: $blue-100;
+                }
+            }
+        }
+    }
+}

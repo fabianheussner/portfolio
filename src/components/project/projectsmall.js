@@ -8,7 +8,7 @@ const ProjectSmall = props => {
     console.log(props)
     return (
         
-        <div className={`${styles.projectsmall} project-small column is-5 ${props.offset}`}>
+        <div className={`${styles.projectsmall} project-small column is-5-desktop is-6-tablet ${props.offset}`}>
             <Link to={props.link}>
                 <div className={styles.thumbnail}>
                     <Fade delay="400" duration="1400">

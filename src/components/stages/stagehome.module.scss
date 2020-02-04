@@ -1,12 +1,12 @@
 @import "../../pages/styles/colors.scss";
 
 .stage {
-    display: flex;
-    align-items: center;
+    // display: flex;
+    // align-items: center;
     min-height: 100vh;
 
     .stage__container {
-        
+        margin-top: 10vh;
 
         .stage__columns {          
             align-items: center;
@@ -19,7 +19,7 @@
                     font-size: 1.625rem;
                     line-height: 2.625rem;
                     color: $light-300;
-                    font-weight: 500;
+                    font-weight: 400;
 
                     .supplement {
                         font-style: italic;
@@ -41,7 +41,7 @@
 
         .scrolldown__position {
             position: absolute;
-            bottom: 0;
+            top: calc(100vh - 10vh - 153px);
         }
     }
 }

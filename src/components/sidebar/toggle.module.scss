@@ -4,8 +4,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 48px;
-    height: 48px;
+    // width: 48px;
+    // height: 48px;
+    width: 56px;
+    height: 56px;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -27,18 +29,18 @@
     }
 
     .togglebutton__line {
-        margin-left: 12px;
+        margin-left: 16px;
         width: 24px;
         height: 2px;
         background: $dark-200;
         transition: $hover;
 
         &:nth-child(1) {
-            margin-top: 1rem;
+            margin-top: 1.25rem;
         }
 
         &:nth-child(2) {
-            margin-bottom: 1rem;
+            margin-bottom: 1.25rem;
             width: 16px;
         }
     }

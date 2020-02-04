@@ -48,7 +48,7 @@ const WorkPage = () => {
               projectTitle="Placeholder Title"
             />
             <ProjectSmall 
-              offset="is-offset-2"
+              offset="is-offset-2-desktop"
               link="/osramdocs/"
               featuredImage={projectThumbnail}
               projectTags="Documentation Website"
@@ -65,7 +65,7 @@ const WorkPage = () => {
               projectTitle="Placeholder Title"
             />
             <ProjectSmall 
-              offset="is-offset-2"
+              offset="is-offset-2-desktop"
               link="/osramdocs/"
               featuredImage={projectThumbnail}
               projectTags="Documentation Website"
@@ -82,7 +82,7 @@ const WorkPage = () => {
               projectTitle="Placeholder Title"
             />
             <ProjectSmall 
-              offset="is-offset-2"
+              offset="is-offset-2-desktop"
               link="/osramdocs/"
               featuredImage={projectThumbnail}
               projectTags="Documentation Website"

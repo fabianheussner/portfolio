@@ -22,20 +22,12 @@ const Header = props => (
               </path>
           </svg>
 
-          {/* <img src={myLogo} alt="Logo Fabian Heußner" /> */}
         </Link>
       </div>
       <div className={styles.spacer}></div>
       <div>
         <Toggle click={props.drawerClickHandler} />
       </div>
-      {/* <div className={styles.header_navigationitems}>
-        <ul>
-          <li><Link to="/about/">About</Link></li>
-          <li><Link to="/work/">Work</Link></li>
-          <li><Link to="/contact/">Contact</Link></li>
-        </ul>
-      </div> */}
     </nav>
   </header>
 )
