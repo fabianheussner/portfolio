@@ -12,6 +12,7 @@ const Footer = () => (
             </div>
             <div className={styles.spacer}></div>
             <nav className={styles.footerlinks}>
+                <Link to="/privacy-policy/">Privacy Policy</Link>
                 <Link to="/imprint/">Imprint</Link>
             </nav>
         </div>  

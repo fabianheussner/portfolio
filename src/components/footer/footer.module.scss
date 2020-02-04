@@ -26,8 +26,6 @@ footer.footer {
             padding: 1rem;
             font-size: 1rem;
             font-weight: 400;
-            // text-transform: uppercase;
-            // letter-spacing: .125rem;
             line-height: 24px;
             color: $light-300;
             transition: $hover;
@@ -42,5 +40,25 @@ footer.footer {
 @media (max-width: 768px) {
     .footer {
         margin-bottom: 56px;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer {
+        
+        .container {
+            height: auto;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+
+            .footerlinks {
+                margin-bottom: 2rem;
+            }
+
+            .copyright {
+                margin-bottom: 3rem;
+            }
+        }
     }
 }

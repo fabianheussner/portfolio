@@ -14,7 +14,8 @@ html {
                 border-bottom: none;
             }
 
-            .imprint {
+            .imprint,
+            .privacy-policy {
                 padding-top: 8rem;
                 padding-bottom: 8rem;
                 color: $dark-200;
@@ -32,6 +33,7 @@ html {
                     color: $light-300;
                 }
                 h3 {
+                    margin-top: 4rem;
                     margin-bottom: 1rem;
                     font-size: 1.5rem;
                     font-weight: 500;
@@ -45,7 +47,7 @@ html {
                     color: $light-300;
                 }
                 p.paragraph {
-                    margin-bottom: 4rem;
+                    margin-bottom: 2rem;
                     font-size: 1.125rem;
                     line-height: 2rem;
                 }
@@ -55,10 +57,64 @@ html {
 
                     &:hover {text-decoration: underline;}
                 }
+
+                .list {
+                    margin-bottom: 2rem;
+                    box-shadow: none;
+
+                    li {
+                        font-size: 1.125rem;
+                        line-height: 2rem;
+                        list-style: disc;
+                    }
+                }
             }
 
             .project-small:nth-child(even) {
                 margin-top: 6rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        body {
+            main {
+                .imprint,
+                .privacy-policy {
+                    padding-top: 4rem;
+                    padding-bottom: 4rem;
+
+                    h1.headline {
+                        margin-bottom: 0;
+                        font-size: 1.875rem;
+                        font-weight: 600;
+                    }
+
+                    h2.subtitle {
+                        margin-bottom: 3rem;
+                        font-size: 1.25rem;
+                        color: $light-300;
+                    }
+
+                    p.paragraph {
+                        font-size: 1rem;
+                        line-height: 1.5rem;
+                    }
+
+                    .list {
+                        li {
+                            font-size: 1rem;
+                            line-height: 1.5rem;
+                        }
+                    }
+
+                    a {
+                        overflow-wrap: break-word;
+                        word-wrap: break-word;
+                    }
+                }
             }
         }
     }
@@ -79,3 +135,74 @@ body {
         cursor: pointer;
     }
 }
+
+
+// Custom Animations 
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+
+
+@keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }
+  
+  .fadeOut {
+    animation-name: fadeOut;
+  }
+
+
+
+  @keyframes rotateIn {
+    from {
+      transform-origin: center;
+      transform: rotate3d(0, 0, 1, -200deg);
+      opacity: 0;
+    }
+  
+    to {
+      transform-origin: center;
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+  
+  .rotateIn {
+    animation-name: rotateIn;
+  }
+
+
+
+  @keyframes rotateOut {
+    from {
+      transform-origin: center;
+      opacity: 1;
+    }
+  
+    to {
+      transform-origin: center;
+      transform: rotate3d(0, 0, 1, 200deg);
+      opacity: 0;
+    }
+  }
+  
+  .rotateOut {
+    animation-name: rotateOut;
+  }

@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import ButtonSmall from "../button/buttonsmall"
+// import ButtonSmall from "../button/buttonsmall"
 import Fade from 'react-reveal/Fade'
 
 import styles from './projecthome.module.scss';
@@ -22,7 +22,7 @@ const ProjectHome = props => {
                                 <h2 className={styles.projecttitle}>{props.projecttitle}</h2>
                                 <div className={styles.subtitle}>{props.subtitle}</div>
                                 <div className={styles.tags}>{props.tags}</div>
-                                <ButtonSmall link={props.link} label="View work" />
+                                {/* <ButtonSmall link={props.link} label="View work" /> */}
                             </Fade>
                         </div>
                     </div>

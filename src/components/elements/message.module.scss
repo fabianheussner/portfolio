@@ -23,6 +23,16 @@
         transform: rotate( 45deg ) translateY(-50%);
         background-color: $dark-200;
         box-shadow: $soft-m;
-        // box-shadow: -2px 2px 2px 0px rgba(20,23,51,0.1);
+    }
+}
+
+
+// Media Queries Start
+
+@media (max-width: 768px) {
+    .chatbubble {
+        margin-bottom: 1rem;
+        padding: .5rem 1.5rem;
+        font-size: 1.125rem;
     }
 }

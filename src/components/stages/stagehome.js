@@ -21,7 +21,7 @@ const StageHome = props => {
                         </Fade>
                         <Fade>
                             <span className={styles.subtitle}>
-                                I have a passion for building higlhy-polished user interfaces and enjoy illustrating a lot. <span className={styles.supplement}>Experienced with clients using #FF6600!</span>
+                                I have a passion for building highly-polished user interfaces and enjoy illustrating a lot. <span className={styles.supplement}>Experienced with clients using #FF6600!</span>
                             </span>
                         </Fade>
                         <Fade bottom>

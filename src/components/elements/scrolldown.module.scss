@@ -16,7 +16,6 @@
 
   .slider {
     position: absolute;
-    // bottom: 0%;
     width: 2px;
     height: 80px;
     overflow-y: hidden;
@@ -56,6 +55,17 @@
 @keyframes decrease {
   from { top: -80%; height: 80%; }
   to { top: 110%; height: 10%;}
+}
+
+
+
+
+// Media Queries
+
+@media (max-width: 768px) {
+  .scrolldown {
+    display: none;
+}
 }
 
   

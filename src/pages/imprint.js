@@ -13,7 +13,8 @@ const ImprintPage = () => {
 
       <div className="section imprint ">
           <div className="container">
-              <div className="column is-6 is-offset-3">
+             <div className="columns is-desktop">
+              <div className="column is-8 is-offset-2">
                 <h1 className="headline">legal disclosure</h1>
                 <h2 className="subtitle">
                   Information in accordance with Section 5 TMG
@@ -60,6 +61,7 @@ const ImprintPage = () => {
                   The materials from these pages are copyrighted and any unauthorized use may violate copyright laws.
                 </p>
               </div>
+            </div>
           </div>
       </div>
 
