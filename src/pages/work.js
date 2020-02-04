@@ -43,14 +43,16 @@ const WorkPage = () => {
             <ProjectSmall 
               link="/osramdocs/"
               featuredImage={projectThumbnail}
-              projectTags="Documentation Website &nbsp;&nbsp;&mdash;&nbsp;&nbsp; Osram"
+              projectTags="Documentation Website"
+              projectClient="Osram"
               projectTitle="Placeholder Title"
             />
             <ProjectSmall 
               offset="is-offset-2"
               link="/osramdocs/"
               featuredImage={projectThumbnail}
-              projectTags="Documentation Website &nbsp;&nbsp;&mdash;&nbsp;&nbsp; Osram"
+              projectTags="Documentation Website"
+              projectClient="Osram"
               projectTitle="Placeholder Title"
             />
           </div>
@@ -58,14 +60,16 @@ const WorkPage = () => {
             <ProjectSmall 
               link="/osramdocs/"
               featuredImage={projectThumbnail}
-              projectTags="Documentation Website &nbsp;&nbsp;&mdash;&nbsp;&nbsp; Osram"
+              projectTags="Documentation Website"
+              projectClient="Osram"
               projectTitle="Placeholder Title"
             />
             <ProjectSmall 
               offset="is-offset-2"
               link="/osramdocs/"
               featuredImage={projectThumbnail}
-              projectTags="Documentation Website &nbsp;&nbsp;&mdash;&nbsp;&nbsp; Osram"
+              projectTags="Documentation Website"
+              projectClient="Osram"
               projectTitle="Placeholder Title"
             />
           </div>
@@ -73,14 +77,16 @@ const WorkPage = () => {
             <ProjectSmall 
               link="/osramdocs/"
               featuredImage={projectThumbnail}
-              projectTags="Documentation Website &nbsp;&nbsp;&mdash;&nbsp;&nbsp; Osram"
+              projectTags="Documentation Website"
+              projectClient="Osram"
               projectTitle="Placeholder Title"
             />
             <ProjectSmall 
               offset="is-offset-2"
               link="/osramdocs/"
               featuredImage={projectThumbnail}
-              projectTags="Documentation Website &nbsp;&nbsp;&mdash;&nbsp;&nbsp; Osram"
+              projectTags="Documentation Website"
+              projectClient="Osram"
               projectTitle="Placeholder Title"
             />
           </div>

@@ -19,17 +19,17 @@ const ContactForm = () => (
         <Fade bottom>
           <div className={styles.formgroup}>
               <input name="name" type="text" required/>
-              <label for="name" className={`${styles.controllabel} ${styles.labelinput}`}>Name</label>
+              <span for="name" className={`${styles.controllabel} ${styles.labelinput}`}>Name</span>
               <i className={styles.bar}></i>
           </div>
           <div className={styles.formgroup}>
               <input name="email" type="email" required/>
-              <label for="email" className={`${styles.controllabel} ${styles.labelinput}`}>E-mail</label>
+              <span for="email" className={`${styles.controllabel} ${styles.labelinput}`}>E-mail</span>
               <i className={styles.bar}></i>
           </div>
           <div className={styles.formgroup}>
               <textarea name="message" required/>
-              <label for="message" className={`${styles.controllabel} ${styles.labeltextarea}`}>Request</label>
+              <span for="message" className={`${styles.controllabel} ${styles.labeltextarea}`}>Request</span>
               <i className={styles.bar}></i>
           </div>
           <button type="submit" className={styles.button}>

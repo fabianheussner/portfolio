@@ -17,7 +17,9 @@ const ProjectSmall = props => {
                 </div>
                 <div className={styles.description}>
                     <Fade bottom delay="500">
-                        <div className={styles.tags}>{props.projectTags}</div>
+                        <div className={styles.project__description}>
+                            {props.projectTags}<hr></hr>{props.projectClient}
+                        </div>
                         <h2 className={styles.projecttitle}>{props.projectTitle}</h2>
                     </Fade>
                 </div>

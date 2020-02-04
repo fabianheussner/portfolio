@@ -6,6 +6,7 @@
     min-height: 100vh;
 
     .stage__container {
+        
 
         .stage__columns {          
             align-items: center;
@@ -17,13 +18,15 @@
                     margin-bottom: 32px;
                     font-size: 1.625rem;
                     line-height: 2.625rem;
-                    color: $dark-200;
+                    color: $light-300;
                     font-weight: 500;
 
                     .supplement {
-                        font-style: normal;
+                        font-style: italic;
+                        font-size: 1rem;
                         font-weight: 400;
                         color: $light-300;
+                        white-space: nowrap;
                     }
                 }              
             }
@@ -36,8 +39,9 @@
             }
         }
 
-        .scrolldown {
-            margin-top: 4rem;
+        .scrolldown__position {
+            position: absolute;
+            bottom: 0;
         }
     }
 }
@@ -55,8 +59,8 @@
                 .stage__title {
     
                     .subtitle {
-                        font-size: 1.25rem;
-                        line-height: calc(1.25rem * 1.5);
+                        font-size: 1.5rem;
+                        line-height: calc(1.5rem * 1.6);
                     }
                 }
             }

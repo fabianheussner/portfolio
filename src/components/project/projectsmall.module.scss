@@ -19,11 +19,21 @@
     
         .description {
             
-            .tags {
+            .project__description {
+                display: flex;
                 margin-bottom: 1rem;
                 color: $light-300;
-                // word-spacing: 1rem;
+                
+                hr {
+                    position: relative;
+                    top: .75rem;
+                    margin: 0 1rem;
+                    width: 2rem;
+                    height: 1px;
+                    background: $light-200;
+                }
             }
+
     
             .projecttitle {
                 font-size: 1.5rem;

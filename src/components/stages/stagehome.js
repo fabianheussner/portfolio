@@ -21,7 +21,7 @@ const StageHome = props => {
                         </Fade>
                         <Fade>
                             <span className={styles.subtitle}>
-                                I have a passion for building highly-polished user interfaces and enjoy illustrating a lot. <span className={styles.supplement}>Experienced with clients using #FF6600!</span>
+                                I have a passion for building highly-polished user interfaces and enjoy illustrating a lot. <span className={styles.supplement}>&mdash; Experienced with clients using #FF6600!</span>
                             </span>
                         </Fade>
                         <Fade bottom>
@@ -34,7 +34,9 @@ const StageHome = props => {
                         </Fade>
                     </div>
                 </div>
-                <ScrollDown />
+                <div className={styles.scrolldown__position}>
+                    <ScrollDown />
+                </div>
             </div>
         </div>
 

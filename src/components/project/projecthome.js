@@ -15,25 +15,25 @@ const ProjectHome = props => {
                 <div className={`${styles.project__columns} columns`}>
                     <div className="column is-4">
                         <div className={styles.description}>
-                            <Fade duration="2000">
-                                <div className={styles.client}>{props.client}</div>
-                            </Fade>
-                            <Fade bottom>
-                                <h2 className={styles.projecttitle}>{props.projecttitle}</h2>
-                                <div className={styles.subtitle}>{props.subtitle}</div>
-                                <div className={styles.tags}>{props.tags}</div>
-                                {/* <ButtonSmall link={props.link} label="View work" /> */}
-                            </Fade>
+                            <Link to={props.link}>
+                                <Fade bottom>
+                                    <div className={styles.project__description}>
+                                        <span className={styles.tags}>{props.projectTags}</span><hr></hr>{props.projectClient}
+                                    </div>
+                                    <h2 className={styles.projecttitle}>{props.projectTitle}</h2>
+                                    <h2 className={styles.subtitle}>{props.subtitle}</h2>
+                                </Fade>
+                            </Link>
                         </div>
                     </div>
                     <div className="column is-5 is-offset-3">
-                        <Fade duration="2000">
-                            <div className={styles.thumbnail}>
-                                <Link to={props.link}>
-                                    <img src={props.image} alt="" />
-                                </Link>
-                            </div>
-                        </Fade>
+                        <Link to={props.link}>
+                            <Fade duration="2000">
+                                <div className={styles.thumbnail}>
+                                        <img src={props.image} alt="" />
+                                </div>
+                            </Fade>
+                        </Link>
                     </div>
                 </div>
             </div>

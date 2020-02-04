@@ -19,18 +19,20 @@ const IndexPage = () => {
     <ProjectHome
         link="/osramdocs/"
         image={docsFeatured} 
-        client="Osram" 
-        projecttitle="lightelligence docs" 
+        projectTags="UI UX Concept Illustration"
+        projectClient="Osram" 
+        projectTitle="lightelligence docs" 
         subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
-        tags="UI UX Concept Illustration" />
-
+    />
     <ProjectHome
         link="/osramdocs/"
         image={docsFeatured} 
-        client="Osram" 
-        projecttitle="lightelligence docs" 
+        projectTags="UI UX Concept Illustration"
+        projectClient="Osram" 
+        projectTitle="lightelligence docs" 
         subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
-        tags="UI UX Concept Illustration" />
+    />
+
 
     <Request />
 
