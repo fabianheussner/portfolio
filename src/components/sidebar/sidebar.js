@@ -6,7 +6,8 @@ import styles from './sidebar.module.scss'
 const Sidebar = props => {
 
     return (
-        <nav className={`${styles.sidebar} ${props.show ? styles.open : ''}`}>
+        // <nav className={`${styles.sidebar} ${props.show ? styles.open : ''}`}>
+        <nav className={`${styles.sidebar} ${props.show ? [styles.open] : ''}`}>
             <div className={styles.internallinks}>
                 <ul>
                     <li><Link to="/work/" activeClassName={styles.active}>work</Link></li>
