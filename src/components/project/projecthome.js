@@ -20,11 +20,7 @@ const ProjectHome = props => {
                                     <div className={styles.project__description}>
                                         <span className={styles.tags}>{props.projectTags}</span><hr></hr>{props.projectClient}
                                     </div>
-                                </Fade>
-                                <Fade bottom delay={1000}>
                                     <h2 className={styles.projecttitle}>{props.projectTitle}</h2>
-                                </Fade>
-                                <Fade bottom>
                                     <h2 className={styles.subtitle}>{props.subtitle}</h2>
                                 </Fade>
                             </Link>

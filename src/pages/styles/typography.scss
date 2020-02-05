@@ -1,6 +1,7 @@
-body, html, h1, h2, h3, h4, h5, a, p {
+body, html, h1, h2, h3, h4, h5, a, p, span, div, i, em, strong {
     font-family: 'Roboto', sans-serif !important;
     -webkit-font-smoothing: antialiased !important;
+    font-display: swap;
 }
 
 p {

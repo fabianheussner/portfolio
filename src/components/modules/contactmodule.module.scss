@@ -1,26 +1,29 @@
 @import "../../pages/styles/colors.scss";
 
 .contactlinks {
-    div div {margin-bottom: 7rem;}
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 
-    .label {
-        margin-bottom: 1rem;
-        font-size: .875rem;
-        font-weight: 500;
-        letter-spacing: .125rem;
-        text-transform: uppercase;
-        color: $light-300;
-    }
-    
-    .address, .contact {
-    
-        p {
+    .contactlinks__column {
+        margin-bottom: 4rem;
+
+        .label {
             margin-bottom: 2rem;
-            font-size: 1.5rem;
-            line-height: 2.4rem;
-    
+            font-size: .875rem;
+            font-weight: 500;
+            letter-spacing: .125rem;
+            text-transform: uppercase;
+            color: $light-300;
+        }
+        
+        .contact,
+        .socialmedia {
+        
             a {
                 position: relative;
+                padding: .5rem 1px;
+                font-size: 1.25rem;
+                letter-spacing: .05rem;
                 color: $dark-200;
                 transition: $hover;
     
@@ -28,9 +31,9 @@
                     content: '';
                     position: absolute;
                     z-index: -1;
-                    height: 0px;
-                    width: 100%;  
-                    bottom: -4px;
+                    height: calc(100%);
+                    width: 0;  
+                    bottom: 0;
                     left: 0;
                     background: $blue-100;
                     transition: $hover;
@@ -41,68 +44,40 @@
                 }
     
                 &:hover:after {
-                    height: calc(100% + 8px);
+                    width: calc(100%);
+                }  
+            }
+        }
+    
+        .socialmedia {
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+    
+                li {
+                    margin-right: 3rem;
+                    margin-bottom: 1rem;
                 }
             }
         }
-    }
-    
-    
-    .socialmedia {
-    
-        ul {
-            margin-left: -2rem;
-            display: flex;
-            flex-wrap: wrap;
-    
-            li {
-                padding: 0 1rem;
-    
-              a {
-                display: block;
-                padding: 1rem 1rem;
-                font-size: 1rem;
-                font-weight: 500;
-                line-height: 2rem;
-                text-transform: uppercase;
-                letter-spacing: .125rem;
-                color: $dark-200;
-                transition: $hover;
-          
-                &:hover, :active {
-                  color: $blue-100;
-                }
-              }
-            }
-          }
     }
 }
 
 
 @media (max-width: 768px) {
     .contactlinks {
-        div div {margin-bottom: 5rem;}
+       margin-top: 0;
 
-        .address, .contact {
-            p {
-                font-size: 1.25rem;
-            }
-        }
+       .contactlinks__column {
+           .label {
+               margin-bottom: 1rem;
+           }
 
-        .socialmedia {
-            ul {
-                margin-left: -1rem;
+           .contact,
+           .socialmedia {
+               a {font-size: 1.125rem;}
+           }
+       }
 
-                li {
-                    padding: 0 .5rem;
-
-                    a {
-                        padding: .5rem;
-                        font-size: .875rem;
-                        line-height: 1.5rem;
-                    }
-                }
-            }
-        }
     }
 }
