@@ -17,11 +17,10 @@ const Sidebar = props => {
             </div>
             <div className={styles.externallinks}>
                 <ul>
-                    <li><a href="https://www.facebook.com/">Instagram</a></li>
-                    <li><a href="https://www.facebook.com/">Dribbble</a></li>
-                    <li><a href="https://www.facebook.com/">Xing</a></li>
-                    <li><a href="https://www.facebook.com/">Linkedin</a></li>
-                    <li><a href="https://www.facebook.com/">E-mail</a></li>
+                    <li><a href="https://www.facebook.com/">Instagram.</a></li>
+                    <li><a href="https://www.facebook.com/">Dribbble.</a></li>
+                    <li><a href="https://www.facebook.com/">Xing.</a></li>
+                    <li><a href="https://www.facebook.com/">Linkedin.</a></li>
                 </ul>
             </div>
         </nav>

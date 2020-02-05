@@ -38,21 +38,8 @@
 
         .projecttitle {
             transition: $hover;
-            
-            &:before {
-                content: '';
-                position: absolute;
-                bottom: -6px;
-                left: 0;
-                height: 2px;
-                width: 0%;
-                background: $dark-200;
-                z-index: -1;
-                transition: $hover;
-            } 
         }
 
-        
         .subtitle {
             display: inline-block;
             font-weight: 400;
@@ -71,13 +58,9 @@
     
     a {
         &:hover .projecttitle {
-
-            &:before {
-                width: 100%;
-            }
+            color: $blue-100;
         }
         
-
         &:hover img {
             transform: scale(1.025);
             box-shadow: $soft-xl;
@@ -121,9 +104,7 @@
             a {
                 &:hover {
                     .projecthome {
-                        &:before {
-                            width: 0% !important;
-                        }
+                        
                     }
 
                     img {
