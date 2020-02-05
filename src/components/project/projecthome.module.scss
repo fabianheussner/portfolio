@@ -30,7 +30,6 @@
         .projecttitle,
         .subtitle {
             position: relative;
-            // display: inline;
             font-size: 1.5rem;
             font-weight: 500;
             line-height: calc(1.5rem * 1.6);
@@ -113,14 +112,20 @@
 }
 
 
+// Removing Hover on Touch Devices
 
 
-
-@media (hover:none) {
+@media (max-width: 768px) {
     .projecthome {
         .project__columns {
             a {
                 &:hover {
+                    .projecthome {
+                        &:before {
+                            width: 0% !important;
+                        }
+                    }
+
                     img {
                         transform: none;
                         box-shadow: none;

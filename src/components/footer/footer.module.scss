@@ -1,6 +1,6 @@
 @import "../../pages/styles/colors.scss";
 
-footer.footer {
+.footer {
     position: relative;
     bottom: 0;
     padding-top: 0;
@@ -39,26 +39,42 @@ footer.footer {
 
 @media (max-width: 768px) {
     .footer {
-        margin-bottom: 56px;
+        margin-bottom: 64px;
     }
 }
 
 @media (max-width: 500px) {
     .footer {
-        
+        background: #FAFAFA;
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
         .container {
             height: auto;
-            display: flex;
-            flex-direction: column-reverse;
-            justify-content: center;
-
             .footerlinks {
-                margin-bottom: 2rem;
+                margin-right: -1rem;
+                a {
+                    padding: 1rem;
+                    font-size: .813rem;
+                }
             }
-
             .copyright {
-                margin-bottom: 3rem;
+                font-size: .813rem;
             }
         }
+        
+        // .container {
+        //     height: auto;
+        //     display: flex;
+        //     flex-direction: column-reverse;
+        //     justify-content: center;
+
+        //     .footerlinks {
+        //         margin-bottom: 2rem;
+        //     }
+
+        //     .copyright {
+        //         margin-bottom: 3rem;
+        //     }
+        // }
     }
 }
