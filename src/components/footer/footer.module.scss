@@ -3,8 +3,8 @@
 .footer {
     position: relative;
     bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 
     .container {
         height: 88px;
@@ -49,32 +49,20 @@
         padding-top: 1.5rem !important;
         padding-bottom: 1.5rem !important;
         .container {
+            display: flex;
+            flex-direction: column-reverse;
             height: auto;
             .footerlinks {
-                margin-right: -1rem;
+                display: flex;
+                margin-bottom: .5rem;
                 a {
                     padding: 1rem;
-                    font-size: .813rem;
+                    font-size: 1rem;
                 }
             }
             .copyright {
                 font-size: .813rem;
             }
         }
-        
-        // .container {
-        //     height: auto;
-        //     display: flex;
-        //     flex-direction: column-reverse;
-        //     justify-content: center;
-
-        //     .footerlinks {
-        //         margin-bottom: 2rem;
-        //     }
-
-        //     .copyright {
-        //         margin-bottom: 3rem;
-        //     }
-        // }
     }
 }

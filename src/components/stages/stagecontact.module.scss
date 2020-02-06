@@ -42,9 +42,42 @@
     }
 }
 
+
+// Mobile Breakpoints
+
 @media (max-width: 768px) {
-    .stage__columns {
-        display: flex;
-        flex-direction: column-reverse;
+    .stage {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    
+        .stage__container {
+    
+            .stage__columns {  
+                display: flex;
+                flex-direction: column-reverse;          
+    
+                .stage__title {
+                    margin-top: 1rem;
+    
+                    .pagetitle {
+                        font-size: 2.5rem;
+                    }
+                
+                    .subtitle {
+                        margin-bottom: 1.5rem;
+                        font-size: 1.375rem;
+                        line-height: calc(1.375rem * 1.6);
+                    }
+                    
+                }
+    
+                .stage__illustration {
+                    img {
+                        // width: 100%;
+                        // height: auto;
+                    }
+                }
+            }
+        }
     }
 }

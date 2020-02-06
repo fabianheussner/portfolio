@@ -9,7 +9,7 @@ class Message extends React.Component {
     return (
       <div className={styles.chatbubble}>
         <Typical
-          steps={['...', 2000, 'Hi there nightowl 🦉', 1000, "I'm Fabian 👋", 500]}
+          steps={['...', 2000, 'Hi there stramger 🕵️', 1000, "I'm Fabian 👋", 500]}
           loop={1}
           wrapper="div"
         />
