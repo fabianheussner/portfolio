@@ -14,7 +14,9 @@
         }
 
         .previous a, .next a {
+            position: relative;
             display: flex;
+            padding: .5rem .125rem;
             text-transform: uppercase;
             font-size: .875rem;
             font-weight: 600;
@@ -24,35 +26,40 @@
             color: $dark-200;
             transition: $hover;
 
+            svg path {
+                fill: $dark-200;
+                transition: $hover;
+            }
+
+            &::before {
+                position: absolute;
+                z-index: -1;
+                content: '';
+                height: calc(100%);
+                width: 0;  
+                bottom: 0;
+                left: 0;
+                background: $blue-100;
+                transition: $hover;
+            }
+
             &:hover {
-                color: $blue-100;
+                color: white;
+
+                &::before {
+                    width: 100%;
+                }
+
+                svg path {fill: white;}
             }
         }
 
         .previous a {
-            padding: .5rem .5rem .5rem 0;
+            svg {margin-right: 1rem;}
         }
 
         .next a {
-            padding: .5rem 0 .5rem .5rem;
-        }
-
-        .previous a:before {
-            content: '';
-            display: block;
-            width: 24px;
-            height: 24px;
-            margin-right: 16px;
-            background-image: url('../../images/icon-arrow-left.svg');
-        }
-
-        .next a:after {
-            content: '';
-            display: block;
-            width: 24px;
-            height: 24px;
-            margin-left: 16px;
-            background-image: url('../../images/icon-arrow-right.svg');
+            svg {margin-left: 1rem;}
         }
     }
 }
