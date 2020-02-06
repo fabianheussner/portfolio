@@ -28,12 +28,16 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-web-font-loader`,
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
-        google: {
-          families: [`Roboto:400,500,700,900'`]
-        }
-      }
+        fonts: [
+          {
+            family: `Roboto`,
+            subsets: [`latin`],
+            variants: [`400`, `500`, `700`]
+          },
+        ],
+      },
     },
     `gatsby-plugin-sass`,
     `gatsby-plugin-smoothscroll`,
