@@ -65,18 +65,18 @@ class Layout extends React.Component  {
     return (
       <div style={{height: '100%'}}>
 
-      <Header drawerClickHandler={this.drawerToggleClickHandler} />
+        <Header drawerClickHandler={this.drawerToggleClickHandler} />
 
-      <Sidebar show={this.state.sideDrawerOpen} />
-      {backdrop}
-      
-      <main>{children}</main>
-      
+        <Sidebar show={this.state.sideDrawerOpen} />
+        {backdrop}
+        
+        <main>{children}</main>
+        
 
-      <Footer />
-      <Tabbar />
+        <Footer />
+        <Tabbar />
 
-    </div>
+      </div>
     );
   }
 }

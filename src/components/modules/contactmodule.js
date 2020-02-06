@@ -17,10 +17,10 @@ const ContactModule = () => (
                         <div className={styles.socialmedia}>
                             <h5 className={styles.label}>Follow me on</h5>
                             <ul>
-                                <li><a href="https://www.facebook.com/">Instagram.</a></li>
-                                <li><a href="https://www.facebook.com/">Dribbble.</a></li>
-                                <li><a href="https://www.facebook.com/">Xing.</a></li>
-                                <li><a href="https://www.facebook.com/">Linkedin.</a></li>
+                                <li><a href="https://www.instagram.com/fabianheussner/" target="_blank" without rel="noopener noreferrer">Instagram.</a></li>
+                                <li><a href="https://dribbble.com/FabianH" target="_blank" without rel="noopener noreferrer">Dribbble.</a></li>
+                                <li><a href="https://www.xing.com/profile/Fabian_Heussner/cv" target="_blank" without rel="noopener noreferrer">Xing.</a></li>
+                                <li><a href="https://www.linkedin.com/in/fabian-heussner-91a0a5104/" target="_blank" without rel="noopener noreferrer">Linkedin.</a></li>
                             </ul> 
                         </div>       
                     </div>
