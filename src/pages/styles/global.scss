@@ -136,3 +136,10 @@ body {
     }
 }
 
+
+// No Scroll on Sidebar open
+
+html.noScroll {
+    overflow: hidden;
+}
+
