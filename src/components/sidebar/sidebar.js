@@ -1,15 +1,31 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from "gatsby"
 
 import styles from './sidebar.module.scss'
 
 const Sidebar = props => {
-    const htmlElement = document.querySelector('HTML');
+
+// class Sidebar extends React.Component {
+      // Similar to componentDidMount and componentDidUpdate:
+    useEffect(() => {
+        const htmlElement = document.querySelector('HTML');
+        if (!htmlElement)  return;
+
+        const { show } = props;
+        if (show) {
+            htmlElement.classList.add('noScroll');
+        } else {
+            htmlElement.classList.remove('noScroll');
+        }
+    });
+
     return (
+        
+
         <nav className={`${styles.sidebar} ${props.show ? styles.open : ''}`}>
             <div className={styles.internallinks}>
                 <ul>
-                    <li><Link to="/work/" activeClassName={styles.active} onClick={htmlElement.classList.remove('noScroll')}>work</Link></li>
+                    <li><Link to="/work/" activeClassName={styles.active} onClick={props.onClose}>work</Link></li>
                     <li><Link to="/about/" activeClassName={styles.active}>about me</Link></li>
                     <li><Link to="/contact/" activeClassName={styles.active}>contact</Link></li>
                 </ul>

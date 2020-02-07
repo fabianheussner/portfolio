@@ -38,17 +38,17 @@ class Layout extends React.Component  {
 
   // No Scroll on Sidebar Open Start
 
-  componentDidUpdate() {
-    const htmlElement = document.querySelector('HTML');
-    if (!htmlElement)  return;
+  // componentDidUpdate() {
+  //   const htmlElement = document.querySelector('HTML');
+  //   if (!htmlElement)  return;
 
-    const { sideDrawerOpen } = this.state;
-    if (sideDrawerOpen) {
-      htmlElement.classList.add('noScroll');
-    } else {
-      htmlElement.classList.remove('noScroll');
-    }
-  }
+  //   const { sideDrawerOpen } = this.state;
+  //   if (sideDrawerOpen) {
+  //     htmlElement.classList.add('noScroll');
+  //   } else {
+  //     htmlElement.classList.remove('noScroll');
+  //   }
+  // }
 
   // No Scroll on Sidebar Open End
 
@@ -67,7 +67,7 @@ class Layout extends React.Component  {
 
         <Header drawerClickHandler={this.drawerToggleClickHandler} />
 
-        <Sidebar show={this.state.sideDrawerOpen} />
+        <Sidebar show={this.state.sideDrawerOpen} onClose={() => this.setState({ sideDrawerOpen: false })}/>
         {backdrop}
         
         <main>{children}</main>
