@@ -3,13 +3,27 @@ import { Link } from "gatsby"
 
 import styles from './sidebar.module.scss'
 
+
+const Links = [
+    {
+        to: "/work/",
+        text: "work"
+    },
+    {
+        to: "/about/",
+        text: "about me"
+    },
+    {
+        to: "/contact/",
+        text: "contact"
+    },
+];
+
 const Sidebar = props => {
 
-// class Sidebar extends React.Component {
-      // Similar to componentDidMount and componentDidUpdate:
     useEffect(() => {
         const htmlElement = document.querySelector('HTML');
-        if (!htmlElement)  return;
+        if (!htmlElement) return;
 
         const { show } = props;
         if (show) {
@@ -19,15 +33,24 @@ const Sidebar = props => {
         }
     });
 
+    const linkBinds = {
+        activeClassName: styles.active,
+        onClick: props.onClose
+    };
+
+
     return (
-        
+
 
         <nav className={`${styles.sidebar} ${props.show ? styles.open : ''}`}>
             <div className={styles.internallinks}>
                 <ul>
-                    <li><Link to="/work/" activeClassName={styles.active} onClick={props.onClose}>work</Link></li>
-                    <li><Link to="/about/" activeClassName={styles.active}>about me</Link></li>
-                    <li><Link to="/contact/" activeClassName={styles.active}>contact</Link></li>
+                    {Links.map(({ to, text }, i) => (
+                        <li key={i}>
+                            <Link to={to} {...linkBinds}>{text}</Link>
+                        </li>
+                    )
+                    )}
                 </ul>
             </div>
             <div className={styles.externallinks}>
