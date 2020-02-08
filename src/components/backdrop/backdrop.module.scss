@@ -7,3 +7,9 @@
     background: rgba(20,23,51,0.5);
     z-index: 3;
 }
+
+@media (max-width: 768px) {
+    .backdrop {
+        display: none;
+    }
+} 

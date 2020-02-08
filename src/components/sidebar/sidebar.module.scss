@@ -44,6 +44,8 @@
                 }
                 
                 a {
+                    position: relative;
+                    display: inline-block;
                     padding: 0px 1rem;
                     font-size: 4.5rem;
                     font-weight: 700;
@@ -51,13 +53,33 @@
                     color: $dark-200;
                     transition: $hover;
             
+                    &::before {
+                        position: absolute;
+                        display: inline-block;
+                        z-index: -1;
+                        content: '';
+                        bottom: 0;
+                        left: 0;
+                        width: 0;
+                        height: 100%;
+                        background: $blue-100;
+                        transition: $hover;
+                    }
 
                     &:hover {
-                        color: $blue-100;
+                        color: white;
+
+                        &::before {
+                            width: 100%;
+                        }
                     }
 
                     &.active {
                         color: $blue-100;
+
+                        &:hover::before {
+                            width: 0;
+                        }
                     }
                 }
             }
@@ -66,33 +88,50 @@
 
     .externallinks {
         position: absolute;
-        bottom: 0px;
+        bottom: 1rem;
         align-self: flex-end;
         opacity: 0;
-        transform: translateY(-2rem);
+        // transform: translateY(-2rem);
         transition: all 800ms ease-out;
         transition-delay: 400ms;
 
         ul {
             display: inline-flex;
+            margin-right: 2rem;
     
             li {
-                padding: 0 1rem;
+                margin-left: 6rem;
     
-              a {
-                display: block;
-                padding: 0px 1rem;
-                font-size: 1.25rem;
-                line-height: 56px;
-                letter-spacing: .05rem;
-                color: $dark-200;
-                transition: $hover;
-          
-                &:hover, 
-                &:active {
-                  color: $blue-100;
+                a {
+                    position: relative;
+                    display: inline-block;
+                    padding: .125rem;
+                    font-size: 1.25rem;
+                    letter-spacing: .05rem;
+                    color: $dark-200;
+                    transition: $hover;
+
+                    &::before {
+                        position: absolute;
+                        display: inline-block;
+                        bottom: -.25rem;
+                        left: 0;
+                        z-index: -1;
+                        content: '';
+                        width: 0;
+                        height: calc(100% + 8px);
+                        background: $blue-100;
+                        transition: $hover;
+                    }
+            
+                    &:hover {
+                        color: white;
+
+                        &::before {
+                            width: 100%;
+                        }
+                    }
                 }
-              }
             }
         }
     }
@@ -121,5 +160,12 @@
     .externallinks {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
     }
 }
