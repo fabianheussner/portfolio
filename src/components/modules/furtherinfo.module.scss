@@ -1,0 +1,37 @@
+@import "../../pages/styles/colors.scss";
+
+.furtherinfo {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+    &__columns {
+        align-items: center;
+    }
+
+    .info {
+        font-size: 1.375rem;
+        line-height: calc(1.375rem * 1.7);
+        color: $light-300;
+
+        .first {
+            color: $dark-200;
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .furtherinfo {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        
+        .image {
+            margin-bottom: 2rem;
+        }
+
+        .info {
+            font-size: 1.125rem;
+            line-height: calc(1.125rem * 1.7);
+        }
+    }
+}

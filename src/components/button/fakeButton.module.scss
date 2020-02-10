@@ -1,0 +1,76 @@
+@import "../../pages/styles/colors.scss";
+
+.button {
+    position: relative;
+    display: block;
+    
+    padding: 0 2rem 0 3.5rem;
+    background: transparent;
+    font-size: 1.375rem;
+    font-weight: 500;
+    line-height: 3.5rem;
+    color: $blue-100;
+    transition: $hover;
+
+    &::before {
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        left: 0;
+        content: '';
+        display: block;
+        height: 100%;
+        width: 0;
+        background: transparent;
+        transition: $hover;
+    }
+
+    svg {
+        position: absolute;
+        top: 1rem;
+        left: 0;
+        transition: $hover;
+        
+        path {
+            fill: $blue-100;
+            transition: $hover;
+        }
+    }
+    
+    &:hover {
+        color: white;
+        box-shadow: $soft-m;
+        
+        &::before {
+            width: 100%;
+            background: $blue-100;
+        }
+    }
+    
+    &:hover svg {
+        left: 1rem;
+
+        path {
+            fill: white;
+        }
+    }
+}
+
+
+@media (hover:none) {
+    .button {
+        &:hover {
+            color: $blue-100;
+            box-shadow: none;
+            &::before {
+                background: transparent;
+            }
+            svg {
+                left: 0;
+                path {
+                    fill: $blue-100;
+                }
+            }
+        }
+    }
+}

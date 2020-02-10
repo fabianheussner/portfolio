@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import StageAbout from "../components/stages/stageabout"
 import Accordion from "../components/accordion/accordion"
 import TableLarge from '../components/table/table-large'
+import FurtherInfo from '../components/modules/furtherinfo'
 import Request from '../components/modules/request'
 import Fade from 'react-reveal/Fade'
 
@@ -65,6 +66,8 @@ const AboutPage = () => {
         </section>
 
         <TableLarge />
+
+        <FurtherInfo />
 
         <Request />
 

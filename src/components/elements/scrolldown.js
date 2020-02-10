@@ -1,22 +1,26 @@
 import React from 'react'
 import styles from './scrolldown.module.scss'
 import Reveal from 'react-reveal/Reveal'
+// import { hydrate } from 'react-dom'
 
 
 class ScrollDown extends React.Component  {
-    
+
     componentDidMount() {
         var scrollComponent = this;
         document.addEventListener("scroll", function(e) {
             scrollComponent.toggleVisibility();
         });
     }
-
+    
     toggleVisibility() {
-        if (window.pageYOffset > 100) {
-            document.getElementById('scrolldown-test').classList.add('test');
+        var doesExist = document.getElementById('scrolldown-test');
+        if ( window.pageYOffset > 100 && doesExist ) {
+            doesExist.classList.add('test');
+        } else if ( window.pageYOffset < 100 && doesExist ) {
+            doesExist.classList.remove('test');
         } else {
-            document.getElementById('scrolldown-test').classList.remove('test');
+            return null;
         }
     }
     
