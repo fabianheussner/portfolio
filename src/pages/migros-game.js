@@ -9,27 +9,32 @@ import Intro from "../components/modules/intro"
 import FullWidthImage from "../components/modules/fullwidthimage"
 import LabelText from "../components/modules/labeltext"
 import ImageText from "../components/modules/imagetext"
+import Image3 from "../components/modules/image-3"
 import Credits from "../components/modules/credits"
 import Pagination from "../components/modules/pagination"
 import Request from '../components/modules/request'
 
 
-import CodeFrame from '../images/project-docs/code-frame.webp'
-import DocsHome from '../images/project-docs/docs-home.webp'
-import DocsIllustration from '../images/project-docs/docs-illustration.webp'
+import {
+    migrosGameStage,
+    migrosGameWireflow,
+    migrosGameWorld1,
+    migrosGameWorld2,
+    migrosGameWorld3,
+} from '../images/migros-game'
 
 
-const caseOsramDocs = () => {
+const caseMigrosGame = () => {
   return (
     <Layout>
 
     <Intro 
         client="Migros" 
-        projecttitle="osram docs" 
+        projecttitle="Grill It, Win It" 
         subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
         tags="UI UX Concept Illustration" />
 
-    <FullWidthImage image={DocsHome} />
+    <FullWidthImage image={migrosGameStage} />
 
     <LabelText 
         label="The challenge" 
@@ -40,37 +45,32 @@ const caseOsramDocs = () => {
         nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
         pretium quis, sem. Nulla consequat massa quis enim." />
 
-    <ImageText 
-        colors={{ backgroundColor: '#0D122C', color: 'White' }}
-        image={CodeFrame}
-        headline="Test Headline"
-        copy="Lorem ipsum dolor sit amet, 
-        consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-        Cum sociis natoque penatibus et magnis dis parturient montes, 
-        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
-        pretium quis, sem. Nulla consequat massa quis enim." />
-    
+    <FullWidthImage image={migrosGameWireflow} />
+
     <LabelText 
-        label="framework" 
+        label="The challenge" 
         headline="React is my challenge" 
         copy="Lorem ipsum dolor sit amet, 
         consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
         Cum sociis natoque penatibus et magnis dis parturient montes, 
         nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
-        pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, 
-        fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, 
-        imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. 
-        Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi." />
+        pretium quis, sem. Nulla consequat massa quis enim." />
 
-    <FullWidthImage image={DocsIllustration} />
+    <Image3
+        background={{ backgroundColor: '#F9F9F9' }}
+        image1={migrosGameWorld1}
+        image2={migrosGameWorld2}
+        image3={migrosGameWorld3}
+    />
 
     <LabelText 
-        label="My role" 
-        headline="From Concept to design" 
+        label="The challenge" 
+        headline="React is my challenge" 
         copy="Lorem ipsum dolor sit amet, 
         consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
         Cum sociis natoque penatibus et magnis dis parturient montes, 
-        nascetur ridiculus mus." />
+        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
+        pretium quis, sem. Nulla consequat massa quis enim." />
 
     <Credits 
         label="Credits" />
@@ -84,5 +84,5 @@ const caseOsramDocs = () => {
 }
 
 
-export default caseOsramDocs
+export default caseMigrosGame
 

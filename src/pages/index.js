@@ -6,6 +6,7 @@ import ProjectHome from "../components/project/projecthome"
 import Request from '../components/modules/request'
 
 import docsFeatured from '../images/project-docs/osram-docs-featured.webp'
+import migrosGameFeatured from '../images/migros-game/migros-game-featured.jpg'
 
 import "./mystyles.scss"
 
@@ -25,10 +26,10 @@ const IndexPage = () => {
         subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
     />
     <ProjectHome
-        link="/osramdocs/"
-        image={docsFeatured} 
-        projectTags="UI UX Concept Illustration"
-        projectClient="Osram" 
+        link="/migros-game"
+        image={migrosGameFeatured} 
+        projectTags="Mobile Game"
+        projectClient="Migros" 
         projectTitle="lightelligence docs" 
         subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
     />

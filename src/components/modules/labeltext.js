@@ -8,7 +8,7 @@ const LabelText = props => {
         <section className={`${styles.labeltext} section`}>
             <div className="container is-widescreen">
                 <div className="columns">
-                    <Fade duration="1500">
+                    <Fade>
                         <div className="column">
                             <div className={styles.label}>
                                 <h5 className="label">{props.label}</h5>
