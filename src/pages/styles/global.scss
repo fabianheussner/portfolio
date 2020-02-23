@@ -14,6 +14,11 @@ html {
                 border-bottom: none;
             }
 
+            .no-padding {
+                padding-top: 1rem !important;
+                padding-bottom: 1rem !important;
+            }
+
             .imprint,
             .privacy-policy {
                 padding-top: 8rem;

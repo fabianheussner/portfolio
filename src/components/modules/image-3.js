@@ -5,7 +5,7 @@ import styles from './image-3.module.scss';
 const Image3 = props => {
     console.log(props)
     return (
-        <section className={`${styles.image3} section`} style={props.background}>
+        <section className={`${styles.image3} ${props.padding} section`} style={props.background}>
             <div className="container is-widescreen">
                 <div className="columns">
                     <Fade>

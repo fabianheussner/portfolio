@@ -1,15 +1,27 @@
 @import "../../pages/styles/colors.scss";
 
 .credits {
-    padding-top: 0;
-    padding-bottom: 104px;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 
     .label h5 {
         margin-top: 8px;
         font-size: .875rem;
-        font-weight: 600;
+        font-weight: 700;
         letter-spacing: .125rem;
         text-transform: uppercase;
+        color: $light-300;
+    }
+
+    .headline {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 1.25rem;
+        line-height: calc(1.25rem * 1.7);
         color: $light-300;
     }
 
@@ -35,4 +47,20 @@
             color: $blue-100;
         }
     }
+
 }
+
+@media (max-width: 768px) {
+    .labeltext {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+
+        p {
+            font-size: 1.125rem;
+            line-height: calc(1.125rem * 1.7);
+        }
+    }
+}
+
+
+

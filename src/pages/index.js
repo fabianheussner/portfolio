@@ -7,6 +7,8 @@ import Request from '../components/modules/request'
 
 import docsFeatured from '../images/project-docs/osram-docs-featured.webp'
 import migrosGameFeatured from '../images/migros-game/migros-game-featured.jpg'
+import ruttkowskiFeatured from '../images/ruttkowski/ruttkowski-featured.jpg'
+import lightelligenceIconsFeatured from '../images/lightelligence-icons/lightelligence-icons-featured.jpg'
 
 import "./mystyles.scss"
 
@@ -31,6 +33,24 @@ const IndexPage = () => {
         projectTags="Mobile Game"
         projectClient="Migros" 
         projectTitle="lightelligence docs" 
+        subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
+    />
+
+    <ProjectHome
+        link="/ruttkowski-68"
+        image={ruttkowskiFeatured} 
+        projectTags="Website Relaunch"
+        projectClient="Ruttkowski;68" 
+        projectTitle="A brutalist Experience" 
+        subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
+    />
+
+    <ProjectHome
+        link="/lightelligence-icons"
+        image={lightelligenceIconsFeatured} 
+        projectTags="Icon Set"
+        projectClient="Osram Lightelligence" 
+        projectTitle="An IoT Icon Set" 
         subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
     />
 

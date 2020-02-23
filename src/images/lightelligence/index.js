@@ -1,0 +1,13 @@
+export const lightelligenceBuilding1 = require('./lightelligence-building-1.jpg');
+export const lightelligenceBuilding2 = require('./lightelligence-building-2.jpg');
+export const lightelligenceBuilding3 = require('./lightelligence-building-3.jpg');
+export const lightelligenceBuildingCentral = require('./lightelligence-building-central.jpg');
+export const lightelligenceDocs = require('./lightelligence-docs.jpg');
+export const lightelligenceDocumentation = require('./lightelligence-documentation.jpg');
+export const lightelligenceElements1 = require('./lightelligence-elements-1.jpg');
+export const lightelligenceElements2 = require('./lightelligence-elements-2.jpg');
+export const lightelligenceElements3 = require('./lightelligence-elements-3.jpg');
+export const lightelligenceIllustration1 = require('./lightelligence-illustration-1.jpg');
+export const lightelligenceIllustration2 = require('./lightelligence-illustration-2.jpg');
+export const lightelligenceStage = require('./lightelligence-stage.jpg');
+export const lightelligenceStructure = require('./lightelligence-structure.jpg');

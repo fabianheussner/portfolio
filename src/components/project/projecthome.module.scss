@@ -48,11 +48,19 @@
     }
     
     .thumbnail {
+        max-width: 640px;
+        max-height: 800px;
+        overflow: hidden;
         
         img {
+            display: block;
+            max-width: 100%;
+            width: 100%;
+            height: auto;
             position: relative;
             transform: scale(1);
-            transition: $hover;
+            transform-origin: center center;
+            transition: all 500ms ease-in-out;
         }
     }
     
@@ -62,8 +70,9 @@
         }
         
         &:hover img {
-            transform: scale(1.025);
-            box-shadow: $soft-xl;
+            // transform: scale(1.025);
+            transform: scale(1.075);
+            // box-shadow: $soft-xl;
         }
     }
 }

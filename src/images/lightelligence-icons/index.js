@@ -1,0 +1,11 @@
+export const lightelligenceIconsStage = require('./lightelligence-icons-stage.jpg');
+export const lightelligenceIconsColors1 = require('./lightelligence-icons-colors-1.jpg');
+export const lightelligenceIconsColors2 = require('./lightelligence-icons-colors-2.jpg');
+export const lightelligenceIconsColors3 = require('./lightelligence-icons-colors-3.jpg');
+export const lightelligenceIconsConstruction1 = require('./lightelligence-icons-construction-1.jpg');
+export const lightelligenceIconsConstruction2 = require('./lightelligence-icons-construction-2.jpg');
+export const lightelligenceIconsGrid1 = require('./lightelligence-icons-grid-1.jpg');
+export const lightelligenceIconsGrid2 = require('./lightelligence-icons-grid-2.jpg');
+export const lightelligenceIconsSizes1 = require('./lightelligence-icons-sizes-1.jpg');
+export const lightelligenceIconsSizes2 = require('./lightelligence-icons-sizes-2.jpg');
+export const lightelligenceIconsStructure = require('./lightelligence-icons-structure.jpg');

@@ -1,0 +1,17 @@
+@import "../../pages/styles/colors.scss";
+
+.centerimage {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+    .centerimage__columns {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .centerimage {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}
