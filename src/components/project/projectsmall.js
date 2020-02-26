@@ -10,19 +10,17 @@ const ProjectSmall = props => {
         
         <div className={`${styles.projectsmall} project-small column is-5-desktop is-6-tablet ${props.offset}`}>
             <Link to={props.link}>
-                <div className={styles.thumbnail}>
-                    <Fade delay="400" duration="1400">
+                <Fade>
+                    <div className={styles.thumbnail} style={props.background}>
                         <img src={props.featuredImage} alt="" />
-                    </Fade>
-                </div>
-                <div className={styles.description}>
-                    <Fade bottom delay="500">
+                    </div>
+                    <div className={styles.description}>
                         <div className={styles.project__description}>
                             {props.projectTags}<hr></hr>{props.projectClient}
                         </div>
                         <h2 className={styles.projecttitle}>{props.projectTitle}</h2>
-                    </Fade>
-                </div>
+                    </div>
+                </Fade>
             </Link>
         </div>
     )

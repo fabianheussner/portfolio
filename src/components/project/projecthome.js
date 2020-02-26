@@ -29,7 +29,7 @@ const ProjectHome = props => {
                     <div className="column is-5-desktop is-offset-3-desktop is-tablet-6">
                         <Link to={props.link}>
                             <Fade duration="2000">
-                                <div className={styles.thumbnail}>
+                                <div className={styles.thumbnail} style={props.background}>
                                         <img src={props.image} alt="" />
                                 </div>
                             </Fade>

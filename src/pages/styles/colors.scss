@@ -21,6 +21,7 @@ $blue-400: #1F2A66;
 $blue-500: #17204C;
 
 $hover: all 300ms ease-in-out;
+$hover-long: all 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
 $soft-xl: 0 32px 64px -16px rgba(20, 23, 51, 0.8);
 $soft-l: 0 24px 48px -12px rgba(20, 23, 51, 0.4);

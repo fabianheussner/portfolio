@@ -48,6 +48,15 @@ div {box-sizing: border-box}
 
 @media (max-width: 768px) {
     .table {
+
+        .cell {
+            height: 8rem;
+
+            img {
+                max-width: 100px;
+            }
+        }
+
         .cell.row3 {
             width: 50%;
 
