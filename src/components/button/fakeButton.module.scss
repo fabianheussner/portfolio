@@ -12,7 +12,9 @@
     color: $blue-100;
     transition: $hover;
 
-    &:focus {outline:0;}
+    &:focus {
+        outline: 0;
+    }
 
     &::before {
         position: absolute;

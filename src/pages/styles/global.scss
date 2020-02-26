@@ -144,6 +144,11 @@ body {
 
 // No Scroll on Sidebar open
 
+html {
+    margin-left: calc(100vw - 100%);
+    margin-right: 0;
+}
+
 html.noScroll {
     overflow: hidden;
 }
