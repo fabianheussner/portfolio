@@ -8,8 +8,11 @@
     font-size: 1.375rem;
     font-weight: 500;
     line-height: 3.5rem;
+    border: none;
     color: $blue-100;
     transition: $hover;
+
+    &:focus {outline:0;}
 
     &::before {
         position: absolute;
