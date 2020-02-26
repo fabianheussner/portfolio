@@ -2,7 +2,7 @@ import React from "react";
 import scrollTo from 'gatsby-plugin-smoothscroll';
 import Icon from '../icons/icon';
 import {ICONS} from '../icons/constants';
-import styles from './fakebutton.module.scss';
+import styles from './fakeButton.module.scss';
 
 const FakeButton = props => {
   console.log(props)
