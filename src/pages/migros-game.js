@@ -107,21 +107,27 @@ const caseMigrosGame = () => {
         image3={migrosGameWorld3}
     />
 
-
-
-    <LabelText 
-        label="The challenge" 
-        headline="React is my challenge" 
+    <Credits 
+        label="My role" 
+        headline="What I did comes here"
         copy="Lorem ipsum dolor sit amet, 
         consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
         Cum sociis natoque penatibus et magnis dis parturient montes, 
         nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
-        pretium quis, sem. Nulla consequat massa quis enim." />
+        pretium quis, sem. Nulla consequat massa quis enim."
+        names={ 
+            <div>
+                <a href="https://www.xing.com/profile/Stefan_Anlauf3/cv" target="_blank" rel="noopener noreferrer" alt="">Stefan Anlauf</a>
+                <a href="https://www.xing.com/profile/AylaSybille_Guerbuez/cv" target="_blank" rel="noopener noreferrer" alt="">Ayla Gürbüz</a>
+                <a href="http://bennebockshecker.com/" target="_blank" rel="noopener noreferrer" alt="">Benedikt Bockshecker</a>
+            </div>
+        }
+    />
 
-    <Credits 
-        label="Credits" />
-
-    <Pagination />
+    <Pagination 
+        previous="/lightelligence/"
+        next="/lightelligence-icons/"
+    />
 
     <Request />
 

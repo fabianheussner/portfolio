@@ -70,9 +70,25 @@ const caseRuttkowski = () => {
         image={ruttkowskiError} />
 
     <Credits 
-        label="Credits" />
+        label="My role" 
+        headline="What I did comes here"
+        copy="Lorem ipsum dolor sit amet, 
+        consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+        Cum sociis natoque penatibus et magnis dis parturient montes, 
+        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
+        pretium quis, sem. Nulla consequat massa quis enim."
+        names={ 
+            <div>
+                <a href="http://www.christophsiebelt.de/" target="_blank" rel="noopener noreferrer" alt="">Christoph Siebelt</a>
+                <span>Carolin Meyer</span>
+            </div>
+        }
+    />
 
-    <Pagination />
+    <Pagination 
+        previous="/lightelligence-icons/"
+        next="/lightelligence/"
+    />
 
     <Request />
 

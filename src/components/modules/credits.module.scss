@@ -13,6 +13,10 @@
         color: $light-300;
     }
 
+    .label__credits h5 {
+        margin-top: 1.125rem;
+    }
+
     .headline {
         margin-bottom: 1rem;
         font-size: 1.5rem;
@@ -28,10 +32,11 @@
     .members {
         margin-top: 16px;
 
-        span, span a {
+        a, span {
+            display: inline-block;
             text-transform: uppercase;
             font-size: .875rem;
-            font-weight: 400;
+            font-weight: 500;
             text-transform: uppercase;
             letter-spacing: .125rem;
             line-height: 24px;
@@ -39,11 +44,11 @@
             transition: $hover;
         }
 
-        span {
+        a, span {
             margin-right: 24px;
         }
 
-        span a:hover {
+        a:hover {
             color: $blue-100;
         }
     }

@@ -112,9 +112,19 @@ const caseRuttkowski = () => {
         Cum sociis natoque penatibus et magnis dis parturient montes, 
         nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
         pretium quis, sem. Nulla consequat massa quis enim."
+        names={ 
+            <div>
+                <a href="https://www.xing.com/profile/Timon_Hass/cv" target="_blank" rel="noopener noreferrer" alt="">Timon Hass</a>
+                <a href="https://janstricker.de/" target="_blank" rel="noopener noreferrer" alt="">Jan Stricker</a>
+                <a href="https://github.com/lightbulb-ui" target="_blank" rel="noopener noreferrer" alt="">Development Teams</a>
+            </div>
+        }
     />
 
-    <Pagination />
+    <Pagination 
+        previous="/ruttkowski-68/"
+        next="/migros-game/"
+    />
 
     <Request />
 

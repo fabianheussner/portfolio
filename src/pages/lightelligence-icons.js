@@ -107,9 +107,18 @@ const caseRuttkowski = () => {
         Cum sociis natoque penatibus et magnis dis parturient montes, 
         nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
         pretium quis, sem. Nulla consequat massa quis enim."
+        names={ 
+            <div>
+                <a href="https://janstricker.de/" target="_blank" rel="noopener noreferrer" alt="">Jan Stricker</a>
+                <a href="https://github.com/lightbulb-ui" target="_blank" rel="noopener noreferrer" alt="">Development Teams</a>
+            </div>
+        }
     />
 
-    <Pagination />
+    <Pagination 
+        previous="/migros-game/"
+        next="/ruttkowski-68/"
+    />
 
     <Request />
 

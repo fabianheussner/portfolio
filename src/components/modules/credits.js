@@ -3,20 +3,20 @@ import Fade from 'react-reveal/Fade'
 import styles from './credits.module.scss';
 
 
-const Members = [
-    {
-        link: "/work/",
-        text: "Name 1"
-    },
-    {
-        link: "/about/",
-        text: "Name 2"
-    },
-    {
-        link: "/contact/",
-        text: "Name 3"
-    },
-];
+// const Members = [
+//     {
+//         link: "/work/",
+//         text: "Name 1"
+//     },
+//     {
+//         link: "/about/",
+//         text: "Name 2"
+//     },
+//     {
+//         link: "/contact/",
+//         text: "Name 3"
+//     },
+// ];
 
 
 const Credits = props => {
@@ -38,22 +38,23 @@ const Credits = props => {
                     </div>
                     <div className="columns">
                         <div className="column">
-                            <div className={styles.label}>
+                            <div className={`${styles.label} ${styles.label__credits}`}>
                                 <h5 className="label">Credits</h5>
                             </div>
                         </div>
                         <div className={`${styles.members} column`}>
                             {/* <span><a href="https://www.facebook.com/">Timon Hass</a></span>
                             <span>Svenja Eggers</span> */}
+                            <div className={styles.names}>{props.names}</div>
 
-                            <ul>
+                            {/* <ul>
                                 {Members.map(({ link, text }, i) => (
                                     <li key={i}>
                                         <a href={link}>{text}</a>
                                     </li>
                                 )
                                 )}
-                            </ul>
+                            </ul> */}
 
                         </div>
                     </div>

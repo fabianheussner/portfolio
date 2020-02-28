@@ -11,8 +11,9 @@ const ProjectSmall = props => {
         <div className={`${styles.projectsmall} project-small column is-5-desktop is-6-tablet ${props.offset}`}>
             <Link to={props.link}>
                 <Fade>
-                    <div className={styles.thumbnail} style={props.background}>
+                    <div className={styles.thumbnail}>
                         <img src={props.featuredImage} alt="" />
+                        <div className={styles.image__bg} style={props.background}></div>
                     </div>
                     <div className={styles.description}>
                         <div className={styles.project__description}>

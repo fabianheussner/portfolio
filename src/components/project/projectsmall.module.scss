@@ -8,7 +8,7 @@
         
         .thumbnail {
             display: block;
-            // overflow: hidden;
+            position: relative;
             
             img {
                 display: block;
@@ -20,10 +20,26 @@
                 transform-origin: center center;
                 transition: $hover-long;
             }
+
+            .image__bg {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%; 
+                z-index: -1;
+                transform-origin: center center;
+                transition: $hover-long;
+            }
         }
         
-        &:hover .thumbnail img {
-            transform: scale(1.3);
+        &:hover .thumbnail {
+            img {
+                transform: scale(1.1);
+            }
+            .image__bg {
+                transform: scale(.8);
+            }
         }
 
         .description {

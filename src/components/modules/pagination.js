@@ -10,11 +10,11 @@ const Pagination = props => {
         <section className={`${styles.pagination} section`}>
             <div className={`${styles.pagination__links} container`}>
                 <div className={styles.previous}>
-                    <Link><Icon icon={ICONS.ARROW_LEFT} />Previous</Link>
+                    <Link to={props.previous}><Icon icon={ICONS.ARROW_LEFT} />Previous</Link>
                 </div>
                 <div className={styles.spacer}></div>
                 <div className={styles.next}>
-                    <Link>Next<Icon icon={ICONS.ARROW_RIGHT} /></Link>
+                    <Link to={props.next}>Next<Icon icon={ICONS.ARROW_RIGHT} /></Link>
                 </div>
             </div>
         </section>
