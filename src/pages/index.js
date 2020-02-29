@@ -1,4 +1,5 @@
 import React from "react"
+import SEO from "../components/seo"
 
 import Layout from "../components/layout"
 import StageHome from "../components/stages/stagehome"
@@ -16,7 +17,7 @@ import "./mystyles.scss"
 const IndexPage = () => {
   return (
     <Layout>
-    
+    <SEO title="Hey there" />
     <StageHome />
 
     <ProjectHome
