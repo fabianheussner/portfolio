@@ -38,7 +38,7 @@ const caseRuttkowski = () => {
     <FullWidthImage image={ruttkowskiStage} />
 
     <LabelText 
-        label="The challenge" 
+        label="The situation" 
         headline="React is my challenge" 
         copy="Lorem ipsum dolor sit amet, 
         consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 

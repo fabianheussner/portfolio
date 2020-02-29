@@ -20,14 +20,13 @@ import iconAgile from '../images/icon-agile.svg'
 const AboutPage = () => {
   return (
     <Layout>
-      <SEO title="Learn about me" />
+      <SEO title="About me" />
       <StageAbout 
-          pagetitle={["that's ", <strong>me</strong>]}
-          subtitle="Lorem ipsum dolor sit amet, 
-          consectetuer adipiscing elit. Aenean commodo 
-          ligula eget dolor. Aenean massa. Cum sociis 
-          natoque penatibus et magnis dis parturient montes, 
-          nascetur ridiculus mus."
+          pagetitle={["about ", <strong>me</strong>]}
+          subtitle="Hey, I'm Fabian, UI and Visual Designer, currently living in sunny Hamburg. 🌦️ 
+          I have a passion for illustration and am fascinated by writing code. 
+          Currently I'm working on complex design systems, web and app interfaces, 
+          the emotionalization of brands and beautifying the resulting empty states and onboardings."
       />
 
       <section className="section accordion-section skills">

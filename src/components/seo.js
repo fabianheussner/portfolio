@@ -10,6 +10,8 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
+import ogImage from '../images/other/fabian-heussner-sharing.png'
+
 function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
     graphql`
@@ -68,14 +70,17 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <meta property="og:image" content={ogImage}></meta>
+      <meta property="twitter:image" content={ogImage}></meta>
+    </Helmet>
   )
 }
 
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  description: ``,
+  description: `Fabian Heussner - UI and Visual Designer Portfolio Website`,
 }
 
 SEO.propTypes = {
