@@ -1,5 +1,5 @@
 import React from "react"
-
+import SEO from "../components/seo"
 
 import Layout from "../components/layout"
 
@@ -37,7 +37,7 @@ import {
 const caseRuttkowski = () => {
   return (
     <Layout>
-
+    <SEO title="Lightelligence Design System and Apps" />
     <Intro 
         client="Ruttkowski;68" 
         projecttitle="A brutalist Experience" 

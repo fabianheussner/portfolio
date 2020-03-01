@@ -1,5 +1,5 @@
 import React from "react"
-
+import SEO from "../components/seo"
 
 import Layout from "../components/layout"
 
@@ -39,10 +39,12 @@ const caseMigrosGame = () => {
   return (
     <Layout>
 
+    <SEO title="Grill It, Win It" />
+
     <Intro 
         client="Migros" 
         projecttitle="Grill It, Win It" 
-        subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
+        subtitle="A summer promotion game that captivated the players and far exceeded expectations" 
         tags="UI UX Concept Illustration" />
 
     <FullWidthImage image={migrosGameStage} />

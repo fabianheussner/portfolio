@@ -27,7 +27,7 @@ const WorkPage = () => {
         games for Swatch and Migros, the relaunch of Flik Flak, 
         illustrated promotions for otelo to complex IoT solutions 
         for Osram Lightelligence. I am particularly experienced with 
-        customers using # FF6600. ✌️"
+        clients using # FF6600. ✌️"
       />
 
       <TableSmall />
@@ -61,9 +61,9 @@ const WorkPage = () => {
               link="/migros-game/"
               featuredImage={migrosGameFeatured}
               background={{ backgroundColor: '#141733' }}
-              projectTags="Documentation Website"
-              projectClient="Osram"
-              projectTitle="Placeholder Title"
+              projectTags="Mobile Game"
+              projectClient="Migros"
+              projectTitle="Grill It, Win It"
             />
           </div>
           <div className="columns">

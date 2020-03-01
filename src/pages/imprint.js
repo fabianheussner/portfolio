@@ -1,4 +1,5 @@
 import React from "react"
+import SEO from "../components/seo"
 
 import Layout from "../components/layout"
 
@@ -10,7 +11,7 @@ const ImprintPage = () => {
 
   return (
     <Layout>
-
+      <SEO title="Imprint" />
       <div className="section imprint ">
           <div className="container">
              <div className="columns is-desktop">

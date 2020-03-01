@@ -35,8 +35,8 @@ const IndexPage = () => {
         background={{ backgroundColor: '#141733' }}
         projectTags="Mobile Game"
         projectClient="Migros" 
-        projectTitle="lightelligence docs" 
-        subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
+        projectTitle="Grill It, Win It" 
+        subtitle="A summer promotion game that captivated the players and far exceeded expectations" 
     />
     <ProjectHome
         link="/lightelligence-icons"

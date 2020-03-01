@@ -1,4 +1,5 @@
 import React from "react"
+import SEO from "../components/seo"
 
 import Layout from "../components/layout"
 import StageContact from "../components/stages/stagecontact"
@@ -9,11 +10,12 @@ import "../pages/mystyles.scss"
 const ContactPage = () => {
   return (
     <Layout>
-    
+    <SEO title="Say hello" />
     <StageContact 
       pagetitle={["say", <strong> hello</strong>]}
-      subtitle="Feel free to contact me anytime. Whether you need an estimate, 
-      have an inquiry or if you're just thinking out loud."
+      subtitle="Feel free to contact me anytime. 
+      Whether you think I can be a good addition to your team, 
+      have an inquiry or just want to know more about me. 👇"
     />
     <ContactModule />
 
