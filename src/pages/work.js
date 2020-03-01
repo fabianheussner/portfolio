@@ -17,13 +17,17 @@ import lightelligenceIconsFeatured from '../images/lightelligence-icons/lightell
 const WorkPage = () => {
   return (
     <Layout>
-      <SEO title="See my work" />
+      <SEO title="My work" />
 
       <StageWork 
         pagetitle={["my ", <strong>work</strong>]}
-        subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque 
-        penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        subtitle="As part of my work, 
+        I have the opportunity to develop tailor-made solutions 
+        together with customers from various industries &mdash; from 
+        games for Swatch and Migros, the relaunch of Flik Flak, 
+        illustrated promotions for otelo to complex IoT solutions 
+        for Osram Lightelligence. I am particularly experienced with 
+        customers using # FF6600. ✌️"
       />
 
       <TableSmall />

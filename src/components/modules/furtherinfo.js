@@ -17,7 +17,12 @@ const FurtherInfo = props => {
                     <div className="column is-6-desktop is-offset-2-desktop is-6-tablet is-offset-1-tablet">
                         <Fade bottom>
                             <p className={styles.info}>
-                                <span className={styles.first}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </span>Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel.
+                                <span className={styles.first}>I love cycling, coffee and asian food. 🚴‍💨</span>
+                                Outside of work you can often meet me on my race bike in the greater Hamburg area 
+                                or even crossing the Alps. I draw inspiration and strength primarily from nature, 
+                                my love for mountaineering and the photography of impressive architecture. 
+                                Road cycling offers me an important balance to desk work and gives me the focus and 
+                                the mental willpower to solve complex tasks. 
                             </p>
                         </Fade>
                     </div>
