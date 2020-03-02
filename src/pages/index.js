@@ -25,7 +25,7 @@ const IndexPage = () => {
         image={lightelligenceFeatured} 
         background={{ backgroundColor: '#E9ECEF' }}
         projectTags="Design System | Apps"
-        projectClient="Osram Lightelligence" 
+        projectClient="Lightelligence" 
         projectTitle="Open Source IoT Design System" 
         subtitle="A plurality of components for the rapid development of custom tailored IoT solutions." 
     />
@@ -43,7 +43,7 @@ const IndexPage = () => {
         image={lightelligenceIconsFeatured} 
         background={{ backgroundColor: '#EAEDF2' }}
         projectTags="Icon Set"
-        projectClient="Osram Lightelligence" 
+        projectClient="Lightelligence" 
         projectTitle="An IoT Icon Library" 
         subtitle="The creation of an icon set that offers the right size for each use case." 
     />
