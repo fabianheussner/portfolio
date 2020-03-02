@@ -137,3 +137,22 @@
         }
     }
 }
+
+
+@media (hover: none) {
+    .projecthome {    
+        a {
+            &:hover .projecttitle {
+                color: inherit;
+            }          
+            &:hover .thumbnail {
+                img {
+                    transform: inherit;
+                }
+                .image__bg {
+                    transform: inherit;
+                }
+            }
+        }
+    }
+}

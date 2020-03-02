@@ -76,3 +76,20 @@
         margin-bottom: 6rem;
     }
 }
+
+
+
+@media (hover: none) {
+    .projectsmall {
+        a { 
+            &:hover .thumbnail {
+                img {
+                    transform: inherit;
+                }
+                .image__bg {
+                    transform: inherit;
+                }
+            }
+        }
+    }
+}

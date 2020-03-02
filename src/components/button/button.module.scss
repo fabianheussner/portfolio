@@ -56,19 +56,23 @@
 }
 
 
-@media (hover:none) {
-    .button {
+@media (hover: none) {
+    .button {    
         &:hover {
-            color: $blue-100;
-            box-shadow: none;
+            color: inherit;
+            box-shadow: inherit;
+            
             &::before {
-                background: transparent;
+                width: inherit;
+                background: inherit;
             }
-            svg {
-                left: 0;
-                path {
-                    fill: $blue-100;
-                }
+        }
+        
+        &:hover svg {
+            left: inherit;
+    
+            path {
+                fill: inherit;
             }
         }
     }
