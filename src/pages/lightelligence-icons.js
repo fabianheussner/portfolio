@@ -70,7 +70,7 @@ const caseRuttkowski = () => {
     <LabelText 
         label="The construction " 
         headline="Defining the Style" 
-        copy="TThe shape of each icon is reduced to its minimal form. The overall style is based on a single consistent stroke. Symmetry and consistency of shapes gives the icons a unique quality, while keeping them simple and easy to understand and ensures readability. To balance out the curves of the icon, all end-points are squared off which guaranteed that the icon wouldn’t be too playful for an IoT Set." />
+        copy="The shape of each icon is reduced to its minimal form. The overall style is based on a single consistent stroke. Symmetry and consistency of shapes gives the icons a unique quality, while keeping them simple and easy to understand and ensures readability. To balance out the curves of the icon, all end-points are squared off which guaranteed that the icon wouldn’t be too playful for an IoT Set." />
 
     <Image2
         background={{ backgroundColor: '#E9ECEF' }}
