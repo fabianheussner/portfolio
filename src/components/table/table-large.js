@@ -22,7 +22,7 @@ const TableLarge = props => {
         <div className="section">
             <div className="container is-widescreen">
                 <Fade>
-                    <h5 className={styles.label}>Tools I'm confident with</h5>  
+                    <h5 className={styles.label}>Tools I'm working with</h5>  
                     <div className={styles.table}>
                         <div className={`${styles.cell} ${props.width} ${styles.row6}`}>
                             <img src={logoSketch} alt="Logo Sketch"/>
