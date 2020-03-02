@@ -21,13 +21,7 @@ const WorkPage = () => {
 
       <StageWork 
         pagetitle={["my ", <strong>work</strong>]}
-        subtitle="As part of my work, 
-        I have the opportunity to develop tailor-made solutions 
-        together with customers from various industries &mdash; from 
-        games for Swatch and Migros, the relaunch of Flik Flak, 
-        illustrated promotions for otelo to complex IoT solutions 
-        for Osram Lightelligence. I am particularly experienced with 
-        clients using # FF6600. ✌️"
+        subtitle="Within the scope of my work, I have had the opportunity to develop tailor-made solutions together with customers from various industries - from games for Swatch and Migros, the relaunch of Flik Flak, illustrated promotions for otelo to complex IoT solutions for Osram Lightelligence. I’m highly experienced with customers using #FF6600. ✌️"
       />
 
       <TableSmall />
@@ -52,9 +46,9 @@ const WorkPage = () => {
               link="/lightelligence/"
               featuredImage={lightelligenceFeatured}
               background={{ backgroundColor: '#E9ECEF' }}
-              projectTags="Documentation Website"
-              projectClient="Osram"
-              projectTitle="Placeholder Title"
+              projectTags="Design System | Apps"
+              projectClient="Osram Lightelligence"
+              projectTitle="Open Source IoT Design System"
             />
             <ProjectSmall 
               offset="is-offset-2-desktop"
@@ -63,7 +57,7 @@ const WorkPage = () => {
               background={{ backgroundColor: '#141733' }}
               projectTags="Mobile Game"
               projectClient="Migros"
-              projectTitle="Grill It, Win It"
+              projectTitle="Grill It, Win It!"
             />
           </div>
           <div className="columns">
@@ -71,18 +65,18 @@ const WorkPage = () => {
               link="/lightelligence-icons/"
               featuredImage={lightelligenceIconsFeatured}
               background={{ backgroundColor: '#EAEDF2' }}
-              projectTags="Documentation Website"
-              projectClient="Osram"
-              projectTitle="Placeholder Title"
+              projectTags="Icon Set"
+              projectClient="Osram Lightelligence"
+              projectTitle="An IoT Icon Library"
             />
             <ProjectSmall 
               offset="is-offset-2-desktop"
               link="/ruttkowski-68/"
               featuredImage={ruttkowskiFeatured}
               background={{ backgroundColor: '#FFC9C9' }}
-              projectTags="Documentation Website"
-              projectClient="Osram"
-              projectTitle="Placeholder Title"
+              projectTags="Website Relaunch"
+              projectClient="Ruttkowski;68"
+              projectTitle="A minimalist website relaunch"
             />
           </div>
         </div>

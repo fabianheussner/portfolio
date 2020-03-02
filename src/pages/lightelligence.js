@@ -39,23 +39,24 @@ const caseRuttkowski = () => {
     <Layout>
     <SEO title="Lightelligence Design System and Apps" />
     <Intro 
-        client="Ruttkowski;68" 
-        projecttitle="A brutalist Experience" 
-        subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
-        tags="UI UX Concept Illustration" />
+        client="Osram Lightelligence" 
+        projecttitle="Open Source IoT Design System" 
+        subtitle="A plurality of components for the rapid development of custom tailored IoT solutions." 
+        tags="UI UX Management Illustration" />
 
     <FullWidthImage image={lightelligenceStage} />
     <FullWidthImage image={lightelligenceStructure} />
     <FullWidthImage image={lightelligenceIllustration1} />
 
     <LabelText 
-        label="The challenge" 
-        headline="React is my challenge" 
-        copy="Lorem ipsum dolor sit amet, 
-        consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-        Cum sociis natoque penatibus et magnis dis parturient montes, 
-        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
-        pretium quis, sem. Nulla consequat massa quis enim." />
+        label="The Situation" 
+        headline="Making it accessible to everyone" 
+        copy="LIGHTELLIGENCE is an open IoT platform and ecosystem in the light and building market. 
+        It simplifies the development of IoT software and provides clients with a full stack turn key 
+        IoT solution that can be applied to a huge range of industries. In order to ensure a quality 
+        standard for the design and user experience, we created an open source design system. Tools like 
+        Abstract helped us to enable collaborative work and manage the scope of the design system, 
+        which can be found on GitHub." />
 
 
     <Image2
@@ -85,18 +86,14 @@ const caseRuttkowski = () => {
         image={lightelligenceDocumentation} />
 
     <LabelText 
-        label="The challenge" 
-        headline="React is my challenge" 
-        copy="Lorem ipsum dolor sit amet, 
-        consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-        Cum sociis natoque penatibus et magnis dis parturient montes, 
-        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
-        pretium quis, sem. Nulla consequat massa quis enim." />
+        label="A Requirement" 
+        headline="Documentation is key" 
+        copy="With the rapidly increasing number of components and the further development of the design system to 2.0, an extensive documentation of these components became necessary. In addition to a detailed description in Confluence, we created Lightelligence Docs, which were also implemented on the basis of the design system." />
 
     <FullWidthImage image={lightelligenceIllustration2} />
 
     <CenterText 
-        copy="Various objects made it possible to create many combinations and the integration of obstacles and bonus items made the creation of 240 levels possible."
+        copy="In order to advertise the product and demonstrate the capabilities of the platform, we developed prototypes and applications cross-teams and worked closely with developers."
     />
 
     <CenterImage 
@@ -106,12 +103,8 @@ const caseRuttkowski = () => {
 
     <Credits 
         label="My role" 
-        headline="What I did comes here"
-        copy="Lorem ipsum dolor sit amet, 
-        consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-        Cum sociis natoque penatibus et magnis dis parturient montes, 
-        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
-        pretium quis, sem. Nulla consequat massa quis enim."
+        headline="From factual to pretty"
+        copy="The UI UX team independently took care of the customer's communication and advice. In agile processes, we jointly developed new components and features and were significantly involved in the implementation of complex IoT applications. During my work for Lightelligence, I decisively shaped the design system and established the use of illustrations for the emotionalization of empty states."
         names={ 
             <div>
                 <a href="https://www.xing.com/profile/Timon_Hass/cv" target="_blank" rel="noopener noreferrer" alt="">Timon Hass</a>

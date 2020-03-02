@@ -24,10 +24,10 @@ const IndexPage = () => {
         link="/lightelligence/"
         image={lightelligenceFeatured} 
         background={{ backgroundColor: '#E9ECEF' }}
-        projectTags="Design System and Apps"
-        projectClient="Osram" 
-        projectTitle="Lightelligence Design System and Apps" 
-        subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
+        projectTags="Design System | Apps"
+        projectClient="Osram Lightelligence" 
+        projectTitle="Open Source IoT Design System" 
+        subtitle="A plurality of components for the rapid development of custom tailored IoT solutions." 
     />
     <ProjectHome
         link="/migros-game"
@@ -35,8 +35,8 @@ const IndexPage = () => {
         background={{ backgroundColor: '#141733' }}
         projectTags="Mobile Game"
         projectClient="Migros" 
-        projectTitle="Grill It, Win It" 
-        subtitle="A summer promotion game that captivated the players and far exceeded expectations" 
+        projectTitle="Grill It, Win It!" 
+        subtitle="A summer promotion game that captivated the players and exceeded expectations by far." 
     />
     <ProjectHome
         link="/lightelligence-icons"
@@ -44,8 +44,8 @@ const IndexPage = () => {
         background={{ backgroundColor: '#EAEDF2' }}
         projectTags="Icon Set"
         projectClient="Osram Lightelligence" 
-        projectTitle="An IoT Icon Set" 
-        subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
+        projectTitle="An IoT Icon Library" 
+        subtitle="The creation of an icon set that offers the right size for each use case." 
     />
 
     <ProjectHome
@@ -54,8 +54,8 @@ const IndexPage = () => {
         background={{ backgroundColor: '#FFC9C9' }}
         projectTags="Website Relaunch"
         projectClient="Ruttkowski;68" 
-        projectTitle="A brutalist Experience" 
-        subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
+        projectTitle="A minimalist website relaunch" 
+        subtitle="A new platform for the growing contemporary art gallery Ruttkwoski;68 from Cologne and now also located in Paris." 
     />
 
 

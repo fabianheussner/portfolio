@@ -13,9 +13,7 @@ const ContactPage = () => {
     <SEO title="Say hello" />
     <StageContact 
       pagetitle={["say", <strong> hello</strong>]}
-      subtitle="Feel free to contact me anytime. 
-      Whether you think I can be a good addition to your team, 
-      have an inquiry or just want to know more about me. 👇"
+      subtitle="Feel free to contact me anytime. If you think I could be a good addition to your team, have an inquiry or just want to know more about me. 👇"
     />
     <ContactModule />
 

@@ -24,6 +24,10 @@
 
     &:hover .togglebutton__line {
         background: white;
+
+        &:nth-child(2) {
+            width: 24px;
+        }
     }
 
     .togglebutton__line {

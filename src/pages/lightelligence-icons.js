@@ -36,21 +36,17 @@ const caseRuttkowski = () => {
     <Layout>
     <SEO title="IoT Icon Library" />
     <Intro 
-        client="Ruttkowski;68" 
-        projecttitle="A brutalist Experience" 
-        subtitle="Lorem ipsum dolor sit amet, consectetuer adipiscing elit aenean commodo ligula." 
-        tags="UI UX Concept Illustration" />
+        client="Osram Lightelligence" 
+        projecttitle="An IoT Icon Library" 
+        subtitle="The creation of an icon set that offers the right size for each use case." 
+        tags="UI Icon-Development Management" />
 
     <FullWidthImage image={lightelligenceIconsStage} />
 
     <LabelText 
         label="The challenge" 
-        headline="React is my challenge" 
-        copy="Lorem ipsum dolor sit amet, 
-        consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-        Cum sociis natoque penatibus et magnis dis parturient montes, 
-        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
-        pretium quis, sem. Nulla consequat massa quis enim." />
+        headline="A mess that had to be tamed" 
+        copy="As part of the rapidly growing Lightelligence Design System, an icon library existed relatively unnoticed. Due to the neglect, the pictograms were created in various sizes, line widths and styles and supplemented by integrated material design icons. Within the Design System 2.0, this chaos had to be eliminated and an icon set especially for the open IoT platform developed and integrated." />
 
 
     <Image2
@@ -61,7 +57,7 @@ const caseRuttkowski = () => {
     <FullWidthImage image={lightelligenceIconsStructure} />
 
     <CenterText 
-        copy="Various objects made it possible to create many combinations and the integration of obstacles and bonus items made the creation of 240 levels possible."
+        copy="Working on a design system requires naming conventions - also applying to an icon library. When integrating the symbols, they were summarized according to use cases and function."
     />
 
     <Image2
@@ -72,13 +68,9 @@ const caseRuttkowski = () => {
     />
 
     <LabelText 
-        label="The challenge" 
-        headline="React is my challenge" 
-        copy="Lorem ipsum dolor sit amet, 
-        consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-        Cum sociis natoque penatibus et magnis dis parturient montes, 
-        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
-        pretium quis, sem. Nulla consequat massa quis enim." />
+        label="The construction " 
+        headline="Defining the Style" 
+        copy="TThe shape of each icon is reduced to its minimal form. The overall style is based on a single consistent stroke. Symmetry and consistency of shapes gives the icons a unique quality, while keeping them simple and easy to understand and ensures readability. To balance out the curves of the icon, all end-points are squared off which guaranteed that the icon wouldn’t be too playful for an IoT Set." />
 
     <Image2
         background={{ backgroundColor: '#E9ECEF' }}
@@ -87,7 +79,7 @@ const caseRuttkowski = () => {
     />
 
     <CenterText 
-        copy="Various objects made it possible to create many combinations and the integration of obstacles and bonus items made the creation of 240 levels possible."
+        copy="However, what makes the icon library so special is the fact that each icon exists in three sizes. Depending on the intended usage, the sizes 24x24, 16x16 and 12x12 are available. For the smaller sizes, the stroke width and the level of detail have been reduced to still allow a quick comprehension of the symbol. A filled version of the icon was created for warning states to ensure a higher attention."
     />
 
     <CenterImage 
@@ -101,12 +93,8 @@ const caseRuttkowski = () => {
 
     <Credits 
         label="My role" 
-        headline="What I did comes here"
-        copy="Lorem ipsum dolor sit amet, 
-        consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-        Cum sociis natoque penatibus et magnis dis parturient montes, 
-        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
-        pretium quis, sem. Nulla consequat massa quis enim."
+        headline="A future-oriented implementation"
+        copy="For the 24x24px icons a 2px outline wasn’t used as it is common. This enabled the level of detail to be increased. However, the use of a 1.5px outline requires high-resolution displays, the prevalence of these have increased significantly in the recent years. The integration of the new icon library was therefore a future-oriented decision. When working on this project, I assumed the entire creation using Adobe Illustrator and incorporation into the design system."
         names={ 
             <div>
                 <a href="https://janstricker.de/" target="_blank" rel="noopener noreferrer" alt="">Jan Stricker</a>

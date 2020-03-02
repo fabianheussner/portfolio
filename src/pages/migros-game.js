@@ -43,20 +43,16 @@ const caseMigrosGame = () => {
 
     <Intro 
         client="Migros" 
-        projecttitle="Grill It, Win It" 
-        subtitle="A summer promotion game that captivated the players and far exceeded expectations" 
+        projecttitle="Grill It, Win It!" 
+        subtitle="A summer promotion game that captivated the players and exceeded expectations by far." 
         tags="UI UX Concept Illustration" />
 
     <FullWidthImage image={migrosGameStage} />
 
     <LabelText 
         label="The challenge" 
-        headline="React is my challenge" 
-        copy="Lorem ipsum dolor sit amet, 
-        consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-        Cum sociis natoque penatibus et magnis dis parturient montes, 
-        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
-        pretium quis, sem. Nulla consequat massa quis enim." />
+        headline="A game that should increase sales in stores" 
+        copy="To support an upcoming summer campaign of the Swiss retailer Migros, a game should be developed that offers casual gamers as well as persistent players enough gaming fun over a longer period of time. In addition increasing sales should be achieved. The aim was to develop a game that increasingly enticed customers into the stores without violating the App Store guidelines for in-app purchases of the Migros app." />
 
     <FullWidthImage image={migrosGameWireflow} />
 
@@ -65,13 +61,9 @@ const caseMigrosGame = () => {
         image={migrosGameGameplay1} />
 
     <LabelText 
-        label="The challenge" 
-        headline="React is my challenge" 
-        copy="Lorem ipsum dolor sit amet, 
-        consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-        Cum sociis natoque penatibus et magnis dis parturient montes, 
-        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
-        pretium quis, sem. Nulla consequat massa quis enim." />
+        label="Our solution" 
+        headline="First grill then win" 
+        copy="Compatible to the campaign, we developed a Match-3-Game within the Migros app. What is special: Our game board is a grill and the game elements are ingredients. The player levels from grill to grill and has to fight here and there with different challenges - bad weather, requested dishes or other mishaps. Within 240 levels the gamer faces to recurring competition rounds and with a little luck he can win coupons for Migros." />
 
     <Image2
         background={{ backgroundColor: '#141733' }}
@@ -88,7 +80,7 @@ const caseMigrosGame = () => {
     />
 
     <CenterText 
-        copy="Various objects made it possible to create many combinations and the integration of obstacles and bonus items made the creation of 240 levels possible."
+        copy="The use of the stamp card feature in the Migros app made it possible for on-site customers to unlock additional competition rounds through purchases. Customers were able to win cosmetics for their own avatar or even coupons, which in return could be redeemed again in stores."
     />
 
 
@@ -110,13 +102,9 @@ const caseMigrosGame = () => {
     />
 
     <Credits 
-        label="My role" 
-        headline="What I did comes here"
-        copy="Lorem ipsum dolor sit amet, 
-        consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-        Cum sociis natoque penatibus et magnis dis parturient montes, 
-        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, 
-        pretium quis, sem. Nulla consequat massa quis enim."
+        label="Conclusion and my role" 
+        headline="A success story"
+        copy="By using a generator, we were able to create 240 levels, which were launched in four packages. Increasing difficulty and the gratification of players made the game a bunch fun all the time. The expectation to the increase of sales in the stores were clearly exceeded. During my work on the mobile game I was responsible for parts of the conception, the UI design, illustration and art direction."
         names={ 
             <div>
                 <a href="https://www.xing.com/profile/Stefan_Anlauf3/cv" target="_blank" rel="noopener noreferrer" alt="">Stefan Anlauf</a>
