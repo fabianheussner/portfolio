@@ -24,7 +24,7 @@ const AboutPage = () => {
       <StageAbout 
           pagetitle={["about ", <strong>me</strong>]}
           subtitle="Hey, I'm Fabian, UI and Visual Designer, currently living in sunny Hamburg. 🌦️ 
-          I have a passion for illustration and am fascinated by writing code. 
+          I have a passion for illustration and I'm fascinated by writing code. 
           Currently I'm working on complex design systems, web and app interfaces, 
           the emotionalization of brands and beautifying the resulting empty states and onboardings."
       />

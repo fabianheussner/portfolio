@@ -6,7 +6,7 @@ const FullWidthImage = props => {
     console.log(props)
     return (
         <div className={styles.fullwidthimage}>
-            <Fade duration={2000}>
+            <Fade>
                 <img src={props.image} alt={props.alttext} />
             </Fade>
         </div>
