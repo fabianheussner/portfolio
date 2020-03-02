@@ -24,7 +24,7 @@ const IndexPage = () => {
         link="/lightelligence/"
         image={lightelligenceFeatured} 
         background={{ backgroundColor: '#E9ECEF' }}
-        projectTags="Design System | Apps"
+        projectTags="Design System"
         projectClient="Lightelligence" 
         projectTitle="Open Source IoT Design System" 
         subtitle="A plurality of components for the rapid development of custom tailored IoT solutions." 

@@ -46,8 +46,8 @@ const WorkPage = () => {
               link="/lightelligence/"
               featuredImage={lightelligenceFeatured}
               background={{ backgroundColor: '#E9ECEF' }}
-              projectTags="Design System | Apps"
-              projectClient="Osram Lightelligence"
+              projectTags="Design System"
+              projectClient="Lightelligence"
               projectTitle="Open Source IoT Design System"
             />
             <ProjectSmall 
@@ -66,7 +66,7 @@ const WorkPage = () => {
               featuredImage={lightelligenceIconsFeatured}
               background={{ backgroundColor: '#EAEDF2' }}
               projectTags="Icon Set"
-              projectClient="Osram Lightelligence"
+              projectClient="Lightelligence"
               projectTitle="An IoT Icon Library"
             />
             <ProjectSmall 
