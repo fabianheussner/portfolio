@@ -3,6 +3,7 @@ module.exports = {
     title: `Fabian Heussner Portfolio`,
     description: `Design Portfolio`,
     author: `Fabian Heussner`,
+    siteUrl: 'https://www.fabianheussner.com',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -40,6 +41,15 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.fabianheussner.com',
+        sitemap: 'https://www.fabianheussner.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
