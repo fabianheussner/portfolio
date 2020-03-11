@@ -110,6 +110,7 @@ const caseMigrosGame = () => {
                 <a href="https://www.xing.com/profile/Stefan_Anlauf3/cv" target="_blank" rel="noopener noreferrer" alt="">Stefan Anlauf</a>
                 <a href="https://www.xing.com/profile/AylaSybille_Guerbuez/cv" target="_blank" rel="noopener noreferrer" alt="">Ayla Gürbüz</a>
                 <a href="http://bennebockshecker.com/" target="_blank" rel="noopener noreferrer" alt="">Benedikt Bockshecker</a>
+                <a href="https://www.db-n.com/" target="_blank" rel="noopener noreferrer" alt="">Deepblue Networks</a>
             </div>
         }
     />

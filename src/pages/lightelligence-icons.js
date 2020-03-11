@@ -97,8 +97,8 @@ const caseRuttkowski = () => {
         copy="For the 24x24px icons a 2px outline wasn’t used as it is common. This enabled the level of detail to be increased. However, the use of a 1.5px outline requires high-resolution displays, the prevalence of these have increased significantly in the recent years. The integration of the new icon library was therefore a future-oriented decision. When working on this project, I assumed the entire creation using Adobe Illustrator and incorporation into the design system."
         names={ 
             <div>
-                <a href="https://janstricker.de/" target="_blank" rel="noopener noreferrer" alt="">Jan Stricker</a>
                 <a href="https://github.com/lightbulb-ui" target="_blank" rel="noopener noreferrer" alt="">Development Teams</a>
+                <a href="https://www.db-n.com/" target="_blank" rel="noopener noreferrer" alt="">Deepblue Networks</a>
             </div>
         }
     />

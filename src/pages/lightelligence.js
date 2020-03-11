@@ -110,6 +110,7 @@ const caseRuttkowski = () => {
                 <a href="https://www.xing.com/profile/Timon_Hass/cv" target="_blank" rel="noopener noreferrer" alt="">Timon Hass</a>
                 <a href="https://janstricker.de/" target="_blank" rel="noopener noreferrer" alt="">Jan Stricker</a>
                 <a href="https://github.com/lightbulb-ui" target="_blank" rel="noopener noreferrer" alt="">Development Teams</a>
+                <a href="https://www.db-n.com/" target="_blank" rel="noopener noreferrer" alt="">Deepblue Networks</a>
             </div>
         }
     />

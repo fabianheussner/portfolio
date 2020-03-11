@@ -68,6 +68,7 @@ const caseRuttkowski = () => {
         names={ 
             <div>
                 <a href="http://www.christophsiebelt.de/" target="_blank" rel="noopener noreferrer" alt="">Christoph Siebelt</a>
+                <a href="https://www.db-n.com/" target="_blank" rel="noopener noreferrer" alt="">Deepblue Networks</a>
             </div>
         }
     />
