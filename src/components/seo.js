@@ -71,6 +71,8 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
+      <meta name="description" content="Hey, I'm Fabian Heussner, UI and Visual Designer, currently living in sunny Hamburg. I have a passion for illustration and I'm fascinated by writing code."></meta>
+      <meta name="keywords" content="Fabian Heussner Portfolio Interaction Designer UI UX Design Visual Design Illustration Frontend Development Freelance Freelancer Hamburg"></meta>
       <meta property="og:type" content="website"></meta>
       <meta property="og:url" content="https://fabianheussner.netlify.com/"></meta>
       <meta property="og:title" content="Fabian Heussner — UI and Visual Designer "></meta>
