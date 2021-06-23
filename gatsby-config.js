@@ -29,15 +29,12 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Roboto`,
-            subsets: [`latin`],
-            variants: [`400`, `500`, `700`]
-          },
+            `roboto\:400,500,700`
         ],
+        display: 'swap'
       },
     },
     `gatsby-plugin-sass`,

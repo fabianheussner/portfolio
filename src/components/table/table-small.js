@@ -5,7 +5,7 @@ import {
     clientMigros,
     clientOsram,
     clientOtelo,
-    clientRuttkowski,
+    clientBMG,
     clientSchwarzkopf,
     clientSwatch,
 } from '../../images/clients'
@@ -22,7 +22,7 @@ const TableSmall = props => {
                             <img src={clientOtelo} alt="Logo Otelo"/>
                         </div>
                         <div className={`${styles.cell} ${props.width} ${styles.row3}`}>
-                            <img src={clientRuttkowski} alt="Logo Ruttkowski 68"/>
+                            <img src={clientBMG} alt="Logo Bundesministerium für Gesundheit"/>
                         </div>
                         <div className={`${styles.cell} ${props.width} ${styles.row3}`}>
                             <img src={clientMigros} alt="Logo Migros"/>
