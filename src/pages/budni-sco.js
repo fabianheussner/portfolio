@@ -105,9 +105,9 @@ const caseBudni = () => {
         label="My role" 
         headline="Accompanying the whole process"
         copy="During the project, I was in charge of the entire process. 
-        This included first rough concepts, the entire UI/UX design, visual design, prototyping up to the handoff to the development. 
+        This included first rough concepts, the entire UI/UX Design, Visual Design, Prototyping up to the handoff to the development. 
         Furthermore, it was possible to transfer new and also a majority of the existing components into Figma and to lay a foundation for a 
-        multi-platform design system with the newly created libraries. It was an exciting project that, with its newly created infrastructure, 
+        Multi-Platform Design System with the newly created libraries. It was an exciting project that, with its newly created infrastructure, 
         now has the possibility to scale better and meet the ever-changing demands of consumers."
         names={ 
             <div>
