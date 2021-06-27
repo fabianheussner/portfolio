@@ -1,0 +1,12 @@
+export const budniStage = require('./budni-stage.png');
+export const budniConcept = require('./budni-concept.png');
+export const budniScreensOne = require('./budni-screens-1.png');
+export const budniScreensTwo = require('./budni-screens-2.png');
+export const budniScreensThree = require('./budni-screens-3.png');
+export const budniScreensFour = require('./budni-screens-4.png');
+export const budniIllustrationOne = require('./budni-illustration-1.png');
+export const budniIllustrationTwo = require('./budni-illustration-2.png');
+export const budniIllustrationThree = require('./budni-illustration-3.png');
+export const budniIllustrationFour = require('./budni-illustration-4.png');
+export const budniFlow = require('./budni-flow.png');
+export const budniFeatured = require('./budni-featured.png');

@@ -21,8 +21,8 @@ const StageHome = props => {
                         </Fade>
                         <Fade>
                             <span className={styles.subtitle}>
-                                I have a passion for building highly-polished user interfaces and enjoy illustrating a lot. 
-                                {/* <span className={styles.supplement}>&mdash; Experienced with clients using #FF6600!</span> */}
+                                I am a Product Designer with a passion for creating highly polished UIs and flawless UX. 
+                                Digging through code satisfies me as much as turning a Minimum Viable into a Minimum Lovable Product. 
                             </span>
                         </Fade>
                         <Fade bottom>

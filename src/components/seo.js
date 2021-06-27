@@ -71,17 +71,17 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
-      <meta name="description" content="Hey, I'm Fabian Heussner, UI and Visual Designer, currently living in sunny Hamburg. I have a passion for illustration and I'm fascinated by writing code."></meta>
+      <meta name="description" content="Hey, I'm Fabian Heussner, Product Designer with a passion for illustration, currently living in sunny Hamburg. I have a passion for illustration and I'm fascinated by writing code."></meta>
       <meta name="keywords" content="Fabian Heussner Portfolio Interaction Designer UI UX Design Visual Design Illustration Frontend Development Freelance Freelancer Hamburg"></meta>
       <meta property="og:type" content="website"></meta>
       <meta property="og:url" content="https://fabianheussner.netlify.com/"></meta>
       <meta property="og:title" content="Fabian Heussner — UI and Visual Designer "></meta>
-      <meta property="og:description" content="Hey there, I'm Fabian, UI and Visual Designer based in sunny Hamburg. "></meta>
+      <meta property="og:description" content="Hey there, I'm Fabian, Product Designer based in sunny Hamburg. "></meta>
       <meta property="og:image" content={ogImage}></meta>
       <meta property="twitter:card" content="summary_large_image"></meta>
       <meta property="twitter:url" content="https://fabianheussner.netlify.com/"></meta>
-      <meta property="twitter:title" content="Fabian Heussner — UI and Visual Designer "></meta>
-      <meta property="twitter:description" content="Hey there, I'm Fabian, UI and Visual Designer based in sunny Hamburg. "></meta>
+      <meta property="twitter:title" content="Fabian Heussner — Product Designer "></meta>
+      <meta property="twitter:description" content="Hey there, I'm Fabian, Product Designer based in sunny Hamburg. "></meta>
       <meta property="twitter:image" content={ogImage}></meta>
     </Helmet>
   )

@@ -1,0 +1,11 @@
+export const monoflowStage = require('./monoflow-stage.png');
+export const monoflowLibrary = require('./monoflow-library.png');
+export const monoflowIconsOne = require('./monoflow-icons-1.png');
+export const monoflowIconsTwo = require('./monoflow-icons-2.png');
+export const monoflowIconsThree = require('./monoflow-icons-3.png');
+export const monoflowIconsFour = require('./monoflow-icons-4.png');
+export const monoflowDocsOne = require('./monoflow-docs-1.png');
+export const monoflowDocsTwo = require('./monoflow-docs-2.png');
+export const monoflowComponentsOne = require('./monoflow-components-1.png');
+export const monoflowComponentsTwo = require('./monoflow-components-2.png');
+export const monoflowFeatured = require('./monoflow-featured.png');

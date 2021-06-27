@@ -11,7 +11,7 @@ import Fade from 'react-reveal/Fade'
 
 import "../pages/mystyles.scss"
 
-import iconInterface from '../images/icon-interface.svg'
+
 import iconDevelopment from '../images/icon-code.svg'
 import iconIllustration from '../images/icon-illustration.svg'
 import iconGames from '../images/icon-games.svg'

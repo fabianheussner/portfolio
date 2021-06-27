@@ -8,8 +8,8 @@ import Request from '../components/modules/request'
 
 import lightelligenceFeatured from '../images/lightelligence/lightelligence-featured.png'
 import migrosGameFeatured from '../images/migros-game/migros-game-featured.png'
-import ruttkowskiFeatured from '../images/ruttkowski/ruttkowski-featured.png'
-import lightelligenceIconsFeatured from '../images/lightelligence-icons/lightelligence-icons-featured.png'
+import budniFeatured from '../images/budni/budni-featured.png'
+import monoflowFeatured from '../images/monoflow/monoflow-featured.png'
 
 import "./mystyles.scss"
 
@@ -20,6 +20,15 @@ const IndexPage = () => {
     <SEO title="Hey there" />
     <StageHome />
 
+    <ProjectHome
+        link="/budni-sco"
+        image={budniFeatured} 
+        background={{ backgroundColor: '#1E3E95' }}
+        projectTags="Scan and Go"
+        projectClient="Budni" 
+        projectTitle="More than a Self Checkout" 
+        subtitle="A new platform for the growing contemporary art gallery Ruttkwoski;68 from Cologne and now also located in Paris." 
+    />
     <ProjectHome
         link="/lightelligence/"
         image={lightelligenceFeatured} 
@@ -39,26 +48,14 @@ const IndexPage = () => {
         subtitle="A summer promotion game that captivated the players and exceeded expectations by far." 
     />
     <ProjectHome
-        link="/lightelligence-icons"
-        image={lightelligenceIconsFeatured} 
-        background={{ backgroundColor: '#EAEDF2' }}
-        projectTags="Icon Set"
-        projectClient="Lightelligence" 
-        projectTitle="An IoT Icon Library" 
-        subtitle="The creation of an icon set that offers the right size for each use case." 
+        link="/monoflow"
+        image={monoflowFeatured} 
+        background={{ backgroundColor: '#F2F4F8' }}
+        projectTags="Global Library"
+        projectClient="Independant Work" 
+        projectTitle="A take on improving workflows" 
+        subtitle="Building a global library to enable better collaboration, define a unified process, and achieve faster deliverables." 
     />
-
-    <ProjectHome
-        link="/ruttkowski-68"
-        image={ruttkowskiFeatured} 
-        background={{ backgroundColor: '#FFC9C9' }}
-        projectTags="Website Relaunch"
-        projectClient="Ruttkowski;68" 
-        projectTitle="A minimalist website relaunch" 
-        subtitle="A new platform for the growing contemporary art gallery Ruttkwoski;68 from Cologne and now also located in Paris." 
-    />
-
-
 
     <Request />
 

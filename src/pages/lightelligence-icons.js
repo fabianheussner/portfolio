@@ -104,8 +104,8 @@ const caseRuttkowski = () => {
     />
 
     <Pagination 
-        previous="/migros-game/"
-        next="/ruttkowski-68/"
+        previous="/monoflow/"
+        next="/zusammen-gegen-corona/"
     />
 
     <Request />

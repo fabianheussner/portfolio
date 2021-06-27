@@ -13,6 +13,9 @@ import lightelligenceFeatured from '../images/lightelligence/lightelligence-feat
 import migrosGameFeatured from '../images/migros-game/migros-game-featured.png'
 import ruttkowskiFeatured from '../images/ruttkowski/ruttkowski-featured.png'
 import lightelligenceIconsFeatured from '../images/lightelligence-icons/lightelligence-icons-featured.png'
+import budniFeatured from '../images/budni/budni-featured.png'
+import bmgFeatured from '../images/bmg/bmg-featured.png'
+import monoflowFeatured from '../images/monoflow/monoflow-featured.png'
 
 const WorkPage = () => {
   return (
@@ -41,23 +44,43 @@ const WorkPage = () => {
               }}>Selected projects</h5>
             </div>
           </div>
+
           <div className="columns">
             <ProjectSmall 
+              link="/budni-sco/"
+              featuredImage={budniFeatured}
+              background={{ backgroundColor: '#1E3E95' }}
+              projectTags="Scan and Go"
+              projectClient="Budni"
+              projectTitle="More than a Self Checkout"
+            />
+            <ProjectSmall 
               link="/lightelligence/"
+              offset="is-offset-2-desktop"
               featuredImage={lightelligenceFeatured}
               background={{ backgroundColor: '#E9ECEF' }}
               projectTags="Design System"
               projectClient="Lightelligence"
               projectTitle="Open Source IoT Design System"
             />
+          </div>
+          <div className="columns">
             <ProjectSmall 
-              offset="is-offset-2-desktop"
               link="/migros-game/"
               featuredImage={migrosGameFeatured}
               background={{ backgroundColor: '#141733' }}
               projectTags="Mobile Game"
               projectClient="Migros"
               projectTitle="Grill It, Win It!"
+            />
+            <ProjectSmall 
+              link="/monoflow/"
+              offset="is-offset-2-desktop"
+              featuredImage={monoflowFeatured}
+              background={{ backgroundColor: '#F2F4F8' }}
+              projectTags="Global Library"
+              projectClient="Independent Work"
+              projectTitle="A take on improving workflows"
             />
           </div>
           <div className="columns">
@@ -70,7 +93,17 @@ const WorkPage = () => {
               projectTitle="An IoT Icon Library"
             />
             <ProjectSmall 
+              link="/zusammen-gegen-corona/"
               offset="is-offset-2-desktop"
+              featuredImage={bmgFeatured}
+              background={{ backgroundColor: '#3D4446' }}
+              projectTags="Platform"
+              projectClient="Bundesministerium f. Gesundheit"
+              projectTitle="52 hours to launch"
+            />
+          </div>
+          <div className="columns">
+            <ProjectSmall 
               link="/ruttkowski-68/"
               featuredImage={ruttkowskiFeatured}
               background={{ backgroundColor: '#FFC9C9' }}
@@ -79,6 +112,8 @@ const WorkPage = () => {
               projectTitle="A minimalist website relaunch"
             />
           </div>
+
+          
         </div>
       </section>
 

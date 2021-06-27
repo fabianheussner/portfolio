@@ -116,8 +116,8 @@ const caseMigrosGame = () => {
     />
 
     <Pagination 
-        previous="/lightelligence/"
-        next="/lightelligence-icons/"
+        previous="/migros-game/"
+        next="/monoflow/"
     />
 
     <Request />

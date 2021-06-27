@@ -116,7 +116,7 @@ const caseRuttkowski = () => {
     />
 
     <Pagination 
-        previous="/ruttkowski-68/"
+        previous="/budni-sco/"
         next="/migros-game/"
     />
 

@@ -1,0 +1,9 @@
+export const bmgStage = require('./bmg-stage.png');
+export const bmgIntro = require('./bmg-intro.png');
+export const bmgComponentsOne = require('./bmg-components-1.png');
+export const bmgComponentsTwo = require('./bmg-components-2.png');
+export const bmgScreensOne = require('./bmg-screens-1.png');
+export const bmgScreensTwo = require('./bmg-screens-2.png');
+export const bmgScreensThree = require('./bmg-screens-3.png');
+export const bmgScreensFour = require('./bmg-screens-4.png');
+export const bmgFeatured = require('./bmg-featured.png');

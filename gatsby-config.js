@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Fabian Heussner Portfolio`,
+    title: `Fabian Heussner Product Design Portfolio`,
     description: `Design Portfolio`,
     author: `Fabian Heussner`,
     siteUrl: 'https://www.fabianheussner.com',
