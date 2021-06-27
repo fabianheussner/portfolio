@@ -27,7 +27,7 @@ const IndexPage = () => {
         projectTags="Scan and Go"
         projectClient="Budni" 
         projectTitle="More than a Self Checkout" 
-        subtitle="A new platform for the growing contemporary art gallery Ruttkwoski;68 from Cologne and now also located in Paris." 
+        subtitle="Integrating Scan and Go into existing apps to keep pace with ever-increasing digitization and respond to changing consumer behavior." 
     />
     <ProjectHome
         link="/lightelligence/"

@@ -38,21 +38,21 @@ const caseBudni = () => {
     <Intro 
         client="Budni" 
         projecttitle="More than a Self Checkout" 
-        subtitle="A plurality of components for the rapid development of custom tailored IoT solutions." 
-        tags="UI UX Management Illustration" />
+        subtitle="Integrating Scan and Go into existing apps to keep pace with ever-increasing digitization and respond to changing consumer behavior." 
+        tags="UX UI Concept Illustration Migration" />
 
     <FullWidthImage image={budniStage} />
     <FullWidthImage image={budniConcept} />
     
     <LabelText 
         label="The Situation" 
-        headline="Making it accessible to everyone" 
-        copy="LIGHTELLIGENCE is an open IoT platform and ecosystem in the light and building market. 
-        It simplifies the development of IoT software and provides clients with a full stack turn key 
-        IoT solution that can be applied to a huge range of industries. In order to ensure a quality 
-        standard for the design and user experience, we created an open source design system. Tools like 
-        Abstract helped us to enable collaborative work and manage the scope of the design system, 
-        which can be found on GitHub." />
+        headline="Migration and Integration" 
+        copy="Digital transformation is not just about leveraging new technologies. 
+        It is a cultural shift and a journey that many traditional FMCG brands must undertake
+         to compete in a market that now sees more and more direct-to-consumer startups. 
+         Taking over the project I faced various challenges: 
+         Getting to know the client, conceptualizing and designing the feature, and doing 
+         it during a migration from Sketch to Figma - without an existing component library, which is absolutely mandatory." />
 
     <Image2 
         padding="no-padding"
@@ -69,7 +69,7 @@ const caseBudni = () => {
     />
 
     <CenterText 
-        copy="In order to advertise the product and demonstrate the capabilities of the platform, we developed prototypes and applications cross-teams and worked closely with developers."
+        copy="Operating in an MVP environment, it was a challenge to keep rudimentary screens functional and yet fun to use - illustration proved to be quite helpful."
     />
 
     <CenterImage 
@@ -78,14 +78,13 @@ const caseBudni = () => {
         image={budniScreensThree} />
 
     <LabelText 
-        label="The Situation" 
-        headline="Making it accessible to everyone" 
-        copy="LIGHTELLIGENCE is an open IoT platform and ecosystem in the light and building market. 
-        It simplifies the development of IoT software and provides clients with a full stack turn key 
-        IoT solution that can be applied to a huge range of industries. In order to ensure a quality 
-        standard for the design and user experience, we created an open source design system. Tools like 
-        Abstract helped us to enable collaborative work and manage the scope of the design system, 
-        which can be found on GitHub." />
+        label="The Solution" 
+        headline="Working within the scope" 
+        copy="One of the biggest challenges was to create a proper entry point for the feature. 
+        A restructuring of the Tab Bar was the result. The scan of a QR-Code allows users to easily enter Scan and Go 
+        and at the same time ensures the selection of the correct store without having to select it manually. 
+        By using a split screen, users always have their shopping cart in view while scanning products. 
+        To complete the purchase, users generate their own QR-Code during checkout to easily transfer the scanned products of their cart to a self-scanning terminal." />
 
     <CenterImage 
         image={budniFlow} />
@@ -104,8 +103,11 @@ const caseBudni = () => {
 
     <Credits 
         label="My role" 
-        headline="From concept to implementation"
-        copy="The UI UX team independently took care of the customer's communication and advice. In agile processes, we jointly developed new components and features and were significantly involved in the implementation of complex IoT applications. During my work for Lightelligence, I decisively shaped the design system and established the use of illustrations for the emotionalization of empty states."
+        headline="Accompanying the whole process"
+        copy="During the project phase, I took over all activities that came up. 
+        This included Concept, UX/UI, Visual Design, Dev-Handoff, QA and various activities in the project management process. 
+        In addition, I was able to create most of the app components and transfer them into a long overdue library and lay the foundation for a multi-platform design system. 
+        That said, I have to emphasize that a reasonable product development within fixed budgets is impossible and the result will never reach what unfortunately would be necessary."
         names={ 
             <div>
                 <a href="https://www.cellular.de/" target="_blank" rel="noopener noreferrer" alt="">Cellular</a>

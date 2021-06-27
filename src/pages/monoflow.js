@@ -44,7 +44,7 @@ const caseMonoflow = () => {
     <LabelText 
         label="The Situation" 
         headline="One file to feed them all" 
-        copy="Looking back at my professional career, the work on different customers, projects, 
+        copy="Looking back at my professional career, the work on different accounts, projects, 
         the development of features or new products actually had one thing in common: There was no unified overall process. 
         I wanted to change that and with Monoflow I created a library that can do even more than that." />
 
@@ -92,7 +92,7 @@ const caseMonoflow = () => {
         label="Key Takeaways" 
         headline="Always room for further improvement" 
         copy="It's great to see that the approach was quickly adapted by product teams and found to be valuable. 
-        However, much like a product, Monoflow needs to be constantly evolving to meet the needs of designers and developers. 
+        However, similar to a product, Monoflow needs to be constantly evolving to meet the needs of designers and developers. 
         In addition to more icons, the focus is particularly on UX templates for Jobs To Be Done, Empathy Maps, and more. 
         New tools, software updates and changing requirements create new needs that have to be addressed." />
 
