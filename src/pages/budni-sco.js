@@ -106,7 +106,7 @@ const caseBudni = () => {
         headline="Accompanying the whole process"
         copy="During the project phase, I took over all activities that came up. 
         This included Concept, UX/UI, Visual Design, Dev-Handoff, QA and various activities in the project management process. 
-        In addition, I was able to create most of the app components and transfer them into a long overdue library and lay the foundation for a multi-platform design system. 
+        In addition, I was able to recreate most of the app components and transfer them into a long overdue library and lay the foundation for a multi-platform design system. 
         That said, I have to emphasize that a reasonable product development within fixed budgets is impossible and the result will never reach what unfortunately would be necessary."
         names={ 
             <div>
