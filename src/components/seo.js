@@ -75,13 +75,13 @@ function SEO({ description, lang, meta, title }) {
       <meta name="keywords" content="Fabian Heussner Portfolio Interaction Designer UI UX Design Visual Design Illustration Frontend Development Freelance Freelancer Hamburg"></meta>
       <meta property="og:type" content="website"></meta>
       <meta property="og:url" content="https://fabianheussner.netlify.com/"></meta>
-      <meta property="og:title" content="Fabian Heussner — UI and Visual Designer "></meta>
+      <meta property="og:title" content="Fabian Heussner — Digital Product Designer UI/UX"></meta>
       <meta property="og:description" content="Hey there, I'm Fabian, Product Designer based in sunny Hamburg. "></meta>
       <meta property="og:image" content={ogImage}></meta>
       <meta property="twitter:card" content="summary_large_image"></meta>
       <meta property="twitter:url" content="https://fabianheussner.netlify.com/"></meta>
-      <meta property="twitter:title" content="Fabian Heussner — Product Designer "></meta>
-      <meta property="twitter:description" content="Hey there, I'm Fabian, Product Designer based in sunny Hamburg. "></meta>
+      <meta property="twitter:title" content="Fabian Heussner — Digital Product Designer UI/UX"></meta>
+      <meta property="twitter:description" content="Hey there, I'm Fabian, Digital Product Designer based in sunny Hamburg. "></meta>
       <meta property="twitter:image" content={ogImage}></meta>
     </Helmet>
   )
@@ -90,7 +90,7 @@ function SEO({ description, lang, meta, title }) {
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  description: `Fabian Heussner - UI and Visual Designer Portfolio Website`,
+  description: `Fabian Heussner - Digital Product Designer UI/UX`,
 }
 
 SEO.propTypes = {
