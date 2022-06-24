@@ -21,7 +21,7 @@ const StageHome = props => {
                         </Fade>
                         <Fade>
                             <span className={styles.subtitle}>
-                                I am a Product Designer with a passion for creating highly polished UIs and flawless UX. 
+                                I am a Digital Product Designer with a passion for creating highly polished UIs and flawless UX. 
                                 Digging through code satisfies me as much as turning a Minimum Viable into a Minimum Lovable Product. 
                             </span>
                         </Fade>
